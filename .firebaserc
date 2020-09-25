@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "unimarc-recetas-souplovers": {
+      "hosting": {
+        "souplovers-h-scl013": [
+          "unimarc-recetas-souplovers"
+        ]
+      }
+    }
+  }
+}

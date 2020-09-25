@@ -122,8 +122,13 @@
               "devServerTarget": "souplovers-h-scl013:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "souplovers-h-scl013"
 }
