@@ -10,7 +10,7 @@ export class RecipesComponent implements OnInit {
 
   recipes: any[] = [];
   indexRecipes: number = 0;
-  products: any[] = [];
+  items: any[] = [];
 
   constructor(private recipesService: RecipesdataService) {
 
@@ -26,7 +26,7 @@ export class RecipesComponent implements OnInit {
   }
 
   getRecipes(index: number) {
-    this.products = this.recipes[index]['product'];
+    this.items = this.recipes[index]['product'];
     this.indexRecipes = index;
   }
 
