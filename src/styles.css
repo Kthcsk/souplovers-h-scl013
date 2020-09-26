@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "Clarendon-Regular";
+  src: url("./assets/img/fonts/Clarendon-Regular.ttf");
+}
+@font-face {
+  font-family: "apex-sans-book-regular";
+  src: url("./assets/img/fonts/apex-sans-book-regular.ttf");
+}
+
+h1{
+  font-family: "Clarendon-Regular", serif;
+}
+h2{
+font-family: "apex-sans-book-regular", serif;
+}
