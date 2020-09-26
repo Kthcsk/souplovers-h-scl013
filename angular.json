@@ -131,5 +131,8 @@
       }
     }
   },
-  "defaultProject": "souplovers-h-scl013"
+  "defaultProject": "souplovers-h-scl013",
+  "cli": {
+    "analytics": false
+  }
 }

@@ -7,12 +7,10 @@
   src: url("./assets/img/fonts/apex-sans-book-regular.ttf");
 }
 
-h1{
+/* h1{
   font-family: "Clarendon-Regular", serif;
 }
 h2{
 font-family: "apex-sans-book-regular", serif;
-}
+} */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
