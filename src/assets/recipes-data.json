@@ -1,0 +1,69 @@
+[ {
+  "recipes":[
+    {
+    "id":"0",
+    "name":"Huevos Rellenos",
+    "description":"Deliciosa receta, fácil y rápida de hacer.",
+    "time":"40-45 min",
+    "portions":"4 Porciones"
+    },
+    {
+    "id":"1",
+    "name":"Gazpacho",
+    "description":"Sorprende a tu familia con este delicioso Gazpacho.",
+    "time":"30-35 min",
+    "portions":"4 Porciones"
+    },
+    {
+    "id":"2",
+    "name":"Pollo salteado",
+    "description":"Una excelente opción para un almuerzo exquisito.",
+    "time":"50-60 min",
+    "portions":"4 Porciones"
+    },
+    {
+    "id":"3",
+    "name":"Ñoquis",
+    "description":"Que tu paladar viaje a Italia con estos riquisimos Ñoquis.",
+    "time":"45-50 min",
+    "portions":"4 Porciones"
+    },
+    {
+    "id":"4",
+    "name":"Suffle de Zanahoria",
+    "description":"Receta fácil y por supuesto riquisima.",
+    "time":"50-60 min",
+    "portions":"4 Porciones"
+    },
+    {
+    "id":"5",
+    "name":"Veggie Burguer",
+    "description":"Si buscas una opción vegana esta burguer es perfecta para tí.",
+    "time":"30-35 min",
+    "portions":"4 Porciones"
+    },
+    {
+    "id":"6",
+    "name":"Pollo salteado",
+    "description":"Una excelente opción para un almuerzo exquisito.",
+    "time":"50-60 min",
+    "portions":"4 Porciones"
+    },
+    {
+    "id":"7",
+    "name":"Pizza con Jamón",
+    "description":"Nada como una rica pizza para compartir en familia.",
+    "time":"40-45 min",
+    "portions":"4 Porciones"
+    },
+    {
+    "id":"8",
+    "name":"Chupe de Papas",
+    "description":"Este Chupe de Papas es perfecto para los días frios.",
+    "time":"35-40 min",
+    "portions":"4 Porciones"
+    }
+  ]
+
+  }
+]

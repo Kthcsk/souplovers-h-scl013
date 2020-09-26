@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "src/custom-theme.scss",
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
@@ -130,5 +131,8 @@
       }
     }
   },
-  "defaultProject": "souplovers-h-scl013"
+  "defaultProject": "souplovers-h-scl013",
+  "cli": {
+    "analytics": false
+  }
 }
