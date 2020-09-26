@@ -26,7 +26,7 @@ export class RecipesComponent implements OnInit {
   }
 
   getRecipes(index: number) {
-    this.items = this.recipes[index]['product'];
+    this.items = this.recipes[index]['recipes'];
     this.indexRecipes = index;
   }
 
