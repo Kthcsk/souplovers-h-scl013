@@ -8,7 +8,7 @@ import { environment } from '../environments/environment';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MatSliderModule } from '@angular/material/slider';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatToolbarModule } from '@angular/material/toolbar'; 
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
@@ -20,6 +20,10 @@ import { FiltersComponent } from './components/filters/filters.component';
 import { RecipesComponent } from './components/recipes/recipes.component';
 import { TipsComponent } from './components/tips/tips.component';
 import { RecipeDetailsComponent } from './components/recipe-details/recipe-details.component';
+
+import { HttpClientModule } from '@angular/common/http';
+import { RecipesdataService } from './services/recipesdata.service';
+import { AngularfireConectionService } from './services/angularfire-conection.service';
 
 
 @NgModule({
@@ -42,9 +46,10 @@ import { RecipeDetailsComponent } from './components/recipe-details/recipe-detai
     AngularFireModule.initializeApp(environment.firebase),
     BrowserAnimationsModule,
     MatSliderModule,
-    MatToolbarModule
+    MatToolbarModule,
+    HttpClientModule,
   ],
-  providers: [],
+  providers: [RecipesdataService, AngularfireConectionService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
