@@ -14,7 +14,7 @@
     "name":"Gazpacho",
     "image":"https://github.com/LiRizo/souplovers-h-scl013/blob/master/src/assets/img/imgRecipes/Gazpacho.jpg?raw=true",
     "description":"Sorprende a tu familia con este delicioso Gazpacho.",
-    "icon":"https://raw.githubusercontent.com/LiRizo/souplovers-h-scl013/f32df1bccc3e96270459127b32b5fd3ad3ae100d/src/assets/img/icons/Tomate.svg",
+    "icon":"https://raw.githubusercontent.com/LiRizo/souplovers-h-scl013/d6bd6b71352a45116b130211c468002a203245be/src/assets/img/icons/Tomate.svg",
     "time":"30-35 min",
     "portions":"4 Porciones"
     },
@@ -32,7 +32,7 @@
     "name":"Ñoquis",
     "image":"https://github.com/LiRizo/souplovers-h-scl013/blob/master/src/assets/img/imgRecipes/%C3%91oquis.jpg?raw=true",
     "description":"Que tu paladar viaje a Italia con estos riquisimos Ñoquis.",
-    "icon":"https://raw.githubusercontent.com/LiRizo/souplovers-h-scl013/f32df1bccc3e96270459127b32b5fd3ad3ae100d/src/assets/img/icons/Papa.svg",
+    "icon":"https://raw.githubusercontent.com/LiRizo/souplovers-h-scl013/d6bd6b71352a45116b130211c468002a203245be/src/assets/img/icons/Papa.svg",
     "time":"45-50 min",
     "portions":"4 Porciones"
     },
@@ -68,7 +68,7 @@
     "name":"Chupe de Papas",
     "image":"https://github.com/LiRizo/souplovers-h-scl013/blob/master/src/assets/img/imgRecipes/Chupe-de-papas.jpg?raw=true",
     "description":"Este Chupe de Papas es perfecto para los días frios.",
-    "icon":"https://raw.githubusercontent.com/LiRizo/souplovers-h-scl013/f32df1bccc3e96270459127b32b5fd3ad3ae100d/src/assets/img/icons/Papa.svg",
+    "icon":"https://raw.githubusercontent.com/LiRizo/souplovers-h-scl013/d6bd6b71352a45116b130211c468002a203245be/src/assets/img/icons/Papa.svg",
     "time":"35-40 min",
     "portions":"4 Porciones"
     }
