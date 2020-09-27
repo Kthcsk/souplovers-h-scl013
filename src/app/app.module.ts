@@ -1,8 +1,20 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA  } from '@angular/core';
+/*Firebase imports*/
+import { AngularFireModule } from '@angular/fire';
+import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { environment } from '../environments/environment';
+import { AngularFireStorageModule } from '@angular/fire/storage';
+import { AngularFireDatabaseModule } from '@angular/fire/database';
+/*Styles imports */
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { MatSliderModule } from '@angular/material/slider';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatToolbarModule } from '@angular/material/toolbar';
+
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
 import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
@@ -11,6 +23,11 @@ import { FiltersComponent } from './components/filters/filters.component';
 import { RecipesComponent } from './components/recipes/recipes.component';
 import { TipsComponent } from './components/tips/tips.component';
 import { RecipeDetailsComponent } from './components/recipe-details/recipe-details.component';
+
+import { HttpClientModule } from '@angular/common/http';
+import { RecipesdataService } from './services/recipesdata.service';
+import { AngularfireConectionService } from './services/angularfire-conection.service';
+
 
 @NgModule({
   declarations: [
@@ -28,8 +45,16 @@ import { RecipeDetailsComponent } from './components/recipe-details/recipe-detai
     BrowserModule,
     AppRoutingModule,
     NgbModule,
+    AngularFirestoreModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFireStorageModule,
+    AngularFireDatabaseModule,
+    BrowserAnimationsModule,
+    MatSliderModule,
+    MatToolbarModule,
+    HttpClientModule,
   ],
-  providers: [],
+  providers: [RecipesdataService, AngularfireConectionService],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
