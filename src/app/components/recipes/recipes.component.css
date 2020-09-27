@@ -1,3 +1,7 @@
+.dire-cs{
+  width: 100%;
+display: flex;
+}
 .editcs{
   display: flex;
   width: 18rem;
@@ -9,4 +13,10 @@
 display: flex;
 width: 18rem;
 height: 12rem;
+}
+
+.b-tagcs{
+  position: absolute;
+  background: #DA291C;
+  color: #f7f7f7;
 }
