@@ -5,7 +5,7 @@
     "name":"Huevos Rellenos",
     "image":"https://github.com/LiRizo/souplovers-h-scl013/blob/master/src/assets/img/imgRecipes/HuevosRellenos.jpg?raw=true",
     "description":"Deliciosa receta, fácil y rápida de hacer.",
-    "icon":"src/assets/img/icons/Huevos.svg",
+    "icon":"https://raw.githubusercontent.com/LiRizo/souplovers-h-scl013/964137ee93ed7c3296190e1287e03b60db8c55d3/src/assets/img/icons/Huevos.svg",
     "time":"40-45 min",
     "portions":"4 Porciones"
     },
