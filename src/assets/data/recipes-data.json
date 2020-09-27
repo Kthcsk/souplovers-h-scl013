@@ -5,7 +5,7 @@
     "name":"Huevos Rellenos",
     "image":"https://github.com/LiRizo/souplovers-h-scl013/blob/master/src/assets/img/imgRecipes/HuevosRellenos.jpg?raw=true",
     "description":"Deliciosa receta, fácil y rápida de hacer.",
-    "icon":"",
+    "icon":"src/assets/img/icons/Huevos.svg",
     "time":"40-45 min",
     "portions":"4 Porciones"
     },
@@ -55,18 +55,9 @@
     "portions":"4 Porciones"
     },
     {
-    "id":"6",
-    "name":"Pizza con Jamón",
-    "image":"https://github.com/LiRizo/souplovers-h-scl013/blob/master/src/assets/img/imgRecipes/Pizza.jpg?raw=true",
-    "description":"Nada como una rica pizza para compartir en familia.",
-    "icon":"https://raw.githubusercontent.com/LiRizo/souplovers-h-scl013/f32df1bccc3e96270459127b32b5fd3ad3ae100d/src/assets/img/icons/Pizza.svg",
-    "time":"40-45 min",
-    "portions":"4 Porciones"
-    },
-    {
       "id":"7",
       "name":"Brownie Banana",
-      "image":"https://github.com/LiRizo/souplovers-h-scl013/blob/master/src/assets/img/imgRecipes/Pizza.jpg?raw=true",
+      "image":"https://github.com/LiRizo/souplovers-h-scl013/blob/master/src/assets/img/imgRecipes/Brownie.jpg?raw=true",
       "description":"Nada como un rico Brownie para compartir en familia.",
       "icon":"https://raw.githubusercontent.com/LiRizo/souplovers-h-scl013/f32df1bccc3e96270459127b32b5fd3ad3ae100d/src/assets/img/icons/Banana.svg",
       "time":"40-45 min",
