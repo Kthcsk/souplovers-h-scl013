@@ -1,10 +1,12 @@
 <div class="container-fluid">
-  <div class="d-flex justify-content-center">
+  <div class="dire-cs">
 
     <div class="row my-flex-card">
 
           <div class="card mb-2 editcs" *ngFor="let item of items; let i = index;">
-            <div class="img-cs"> <img src="{{item.image}}" class="card-img-top w-100" style="object-fit: cover;" alt="{{item.name}}"> </div>
+            <div class="img-cs">
+              <button type="button" class="btn mt-4 ml-4 b-tagcs">{{item.tag}}</button>
+              <img src="{{item.image}}" class="card-img-top w-100" style="object-fit: cover;" alt="{{item.name}}"> </div>
 
             <div class="card-body">
               <div class="row">
@@ -12,8 +14,9 @@
              <img src="https://raw.githubusercontent.com/LiRizo/souplovers-h-scl013/d6bd6b71352a45116b130211c468002a203245be/src/assets/img/icons/heart.svg" class="ml-5" style="width: 2rem;" alt="heart"> </div>
 
               <p class="card-text">{{item.description}}</p>
+              <p class="card-text ml-4"><small class="text-muted text-right">  _________________________________  </small></p>
               <div class="row">
-              <img src="{{item.icon}}" class="ml-4" style="width: 3rem;" alt="{{item.icon}}">
+              <img src="{{item.icon}}" class="ml-4" style="width: 3rem;" alt="{{item.icon}}"> <!--Duda con el alt-->
               <p class="card-text ml-4"><small class="text-muted text-right">{{item.time}} </small></p>
               <p class="card-text ml-4"><small class="text-muted text-right"> {{item.portions}}</small></p>
             </div>
@@ -24,3 +27,5 @@
 
   </div>
 </div>
+
+<router-outlet></router-outlet>
