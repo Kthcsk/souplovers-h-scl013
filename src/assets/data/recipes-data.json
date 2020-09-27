@@ -5,18 +5,21 @@
     "name":"Huevos Rellenos",
     "image":"https://github.com/LiRizo/souplovers-h-scl013/blob/master/src/assets/img/imgRecipes/HuevosRellenos.jpg?raw=true",
     "description":"Deliciosa receta, fácil y rápida de hacer.",
-    "icon":"",
+    "icon":"https://raw.githubusercontent.com/LiRizo/souplovers-h-scl013/964137ee93ed7c3296190e1287e03b60db8c55d3/src/assets/img/icons/Huevos.svg",
     "time":"40-45 min",
-    "portions":"4 Porciones"
+    "portions":"4 Porciones",
+    "tag":"Saludable"
     },
     {
     "id":"1",
     "name":"Gazpacho",
     "image":"https://github.com/LiRizo/souplovers-h-scl013/blob/master/src/assets/img/imgRecipes/Gazpacho.jpg?raw=true",
     "description":"Sorprende a tu familia con este delicioso Gazpacho.",
-    "icon":"https://raw.githubusercontent.com/LiRizo/souplovers-h-scl013/f32df1bccc3e96270459127b32b5fd3ad3ae100d/src/assets/img/icons/Tomate.svg",
+    "icon":"https://raw.githubusercontent.com/LiRizo/souplovers-h-scl013/d6bd6b71352a45116b130211c468002a203245be/src/assets/img/icons/Tomate.svg",
     "time":"30-35 min",
-    "portions":"4 Porciones"
+    "portions":"4 Porciones",
+    "tag":"Sopas y cremas"
+
     },
     {
     "id":"2",
@@ -25,16 +28,18 @@
     "description":"Una excelente opción para un almuerzo exquisito.",
     "icon":"https://raw.githubusercontent.com/LiRizo/souplovers-h-scl013/f32df1bccc3e96270459127b32b5fd3ad3ae100d/src/assets/img/icons/Gallina.svg",
     "time":"50-60 min",
-    "portions":"4 Porciones"
+    "portions":"4 Porciones",
+    "tag":"Principal"
     },
     {
     "id":"3",
     "name":"Ñoquis",
     "image":"https://github.com/LiRizo/souplovers-h-scl013/blob/master/src/assets/img/imgRecipes/%C3%91oquis.jpg?raw=true",
     "description":"Que tu paladar viaje a Italia con estos riquisimos Ñoquis.",
-    "icon":"https://raw.githubusercontent.com/LiRizo/souplovers-h-scl013/f32df1bccc3e96270459127b32b5fd3ad3ae100d/src/assets/img/icons/Papa.svg",
+    "icon":"https://raw.githubusercontent.com/LiRizo/souplovers-h-scl013/d6bd6b71352a45116b130211c468002a203245be/src/assets/img/icons/Papa.svg",
     "time":"45-50 min",
-    "portions":"4 Porciones"
+    "portions":"4 Porciones",
+    "tag":"Vegetariano"
     },
     {
     "id":"4",
@@ -43,7 +48,8 @@
     "description":"Receta fácil y por supuesto riquisima.",
     "icon":"https://raw.githubusercontent.com/LiRizo/souplovers-h-scl013/f32df1bccc3e96270459127b32b5fd3ad3ae100d/src/assets/img/icons/Zanahoria.svg",
     "time":"50-60 min",
-    "portions":"4 Porciones"
+    "portions":"4 Porciones",
+    "tag":"Vegetariano"
     },
     {
     "id":"5",
@@ -52,34 +58,28 @@
     "description":"Si buscas una opción vegana esta burguer es perfecta para tí.",
     "icon":"https://raw.githubusercontent.com/LiRizo/souplovers-h-scl013/f32df1bccc3e96270459127b32b5fd3ad3ae100d/src/assets/img/icons/Granos.svg",
     "time":"20-35 min",
-    "portions":"4 Porciones"
-    },
-    {
-    "id":"6",
-    "name":"Pizza con Jamón",
-    "image":"https://github.com/LiRizo/souplovers-h-scl013/blob/master/src/assets/img/imgRecipes/Pizza.jpg?raw=true",
-    "description":"Nada como una rica pizza para compartir en familia.",
-    "icon":"https://raw.githubusercontent.com/LiRizo/souplovers-h-scl013/f32df1bccc3e96270459127b32b5fd3ad3ae100d/src/assets/img/icons/Pizza.svg",
-    "time":"40-45 min",
-    "portions":"4 Porciones"
+    "portions":"4 Porciones",
+    "tag":"Vegano"
     },
     {
       "id":"7",
       "name":"Brownie Banana",
-      "image":"https://github.com/LiRizo/souplovers-h-scl013/blob/master/src/assets/img/imgRecipes/Pizza.jpg?raw=true",
+      "image":"https://github.com/LiRizo/souplovers-h-scl013/blob/master/src/assets/img/imgRecipes/Brownie.jpg?raw=true",
       "description":"Nada como un rico Brownie para compartir en familia.",
       "icon":"https://raw.githubusercontent.com/LiRizo/souplovers-h-scl013/f32df1bccc3e96270459127b32b5fd3ad3ae100d/src/assets/img/icons/Banana.svg",
       "time":"40-45 min",
-      "portions":"4 Porciones"
+      "portions":"4 Porciones",
+      "tag":"Postre"
       },
     {
     "id":"8",
     "name":"Chupe de Papas",
     "image":"https://github.com/LiRizo/souplovers-h-scl013/blob/master/src/assets/img/imgRecipes/Chupe-de-papas.jpg?raw=true",
     "description":"Este Chupe de Papas es perfecto para los días frios.",
-    "icon":"https://raw.githubusercontent.com/LiRizo/souplovers-h-scl013/f32df1bccc3e96270459127b32b5fd3ad3ae100d/src/assets/img/icons/Papa.svg",
+    "icon":"https://raw.githubusercontent.com/LiRizo/souplovers-h-scl013/d6bd6b71352a45116b130211c468002a203245be/src/assets/img/icons/Papa.svg",
     "time":"35-40 min",
-    "portions":"4 Porciones"
+    "portions":"4 Porciones",
+    "tag":"Sopas y cremas"
     }
   ]
 
