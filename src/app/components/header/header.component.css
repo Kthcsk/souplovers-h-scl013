@@ -1,12 +1,52 @@
-
-/* start red header */
-.red-header{
-background-color: #DA291C;
+.red-menu-container {
+  display: flex;
+  flex-direction: row;
 }
+/* start red header */
+.red-header {
+  background-color: #DA291C;
+  color: #FFFFFF;
+}
+
+.apex {
+  font-family: "Apex Sans Book";
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+}
+
+.clarendon {
+  font-family: "Clarendon-Bold";
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 12px;
+}
+
+.clear-text,button {
+  color: #FFFFFF;
+}
+
+.sign-in,.sign-up {
+  width: 113px;
+  height: 25px;
+  border-radius: 3px;
+  outline: none;
+  border: solid 1px #FAFAFA;
+}
+
 /* end red header */
 
 /* start white header */
 .white-header{
   background-color: #FAFAFA;
+}
+
+.dark-text {
+  color: #5C5B5B;
+  font-family: "Clarendon-Regular", serif;
 }
 /* end white header */
