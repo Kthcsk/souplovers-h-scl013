@@ -4,19 +4,21 @@ display: flex;
 }
 .editcs{
   display: flex;
-  width: 18rem;
+  width: 15rem;
   margin: 2rem;
 
 }
-
 .img-cs{
 display: flex;
-width: 18rem;
+width: 14.9rem;
 height: 12rem;
 }
-
 .b-tagcs{
   position: absolute;
   background: #DA291C;
   color: #f7f7f7;
+}
+.heart-s{
+  display: flex;
+  width: 2rem;
 }
