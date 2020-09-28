@@ -16,7 +16,7 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void { // se cambia de lugar el consumo del servicio
     this.recipesService.getRecipes().subscribe( //  para que al momento de abrir la página cargar el componente 
       (data) => {                               // home con el json
-        this.recipes = data[0]['recipes'];
+        this.recipes = data['recipes'];
         this.filteredRecipes = this.recipes;
       },
       (err) => {

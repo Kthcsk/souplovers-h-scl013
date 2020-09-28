@@ -1,5 +1,4 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { RecipesdataService } from 'src/app/services/recipesdata.service';
 
 @Component({
   selector: 'app-recipes',
@@ -9,17 +8,14 @@ import { RecipesdataService } from 'src/app/services/recipesdata.service';
 
 export class RecipesComponent implements OnInit {
 
-item: Object;
-recipes: any[];
-tagV = ["Vegetariano", "Vegano", "Postre"];
-tagO =["Saludable", "Sopas y cremas","Principal"];
+  tagV = ["Vegetariano", "Vegano", "Postre"];
+  tagO =["Saludable", "Sopas y cremas","Principal"];
 
-  constructor(private recipesService: RecipesdataService) {}
+  constructor() {}
 
-    @Input() filteredRecipes: any[];
+  @Input() filteredRecipes: any[];
 
   ngOnInit(): void {
-    this.item = this.recipes[0];
   }
 
 }
