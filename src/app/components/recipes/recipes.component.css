@@ -13,13 +13,13 @@ display: flex;
 width: 14.9rem;
 height: 12rem;
 }
-.b-tagcs{
+.tagO{
   position: absolute;
   background: #DA291C;
   color: #f7f7f7;
 }
 
-.tag-style{
+.tagV{
   background: #0D701C;
   position: absolute;
   color: #f7f7f7;
