@@ -52,7 +52,7 @@ import { AngularfireConectionService } from './services/angularfire-conection.se
     BrowserAnimationsModule,
     MatSliderModule,
     MatToolbarModule,
-    HttpClientModule,
+    HttpClientModule
   ],
   providers: [RecipesdataService, AngularfireConectionService],
   bootstrap: [AppComponent]
