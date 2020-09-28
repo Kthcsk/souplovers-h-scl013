@@ -16,6 +16,10 @@ h2{
 font-family: "apex-sans-book-regular", serif;
 } */
 
+.mat-button .mat-button-focus-overlay {
+  background-color: transparent;
+}
+
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
