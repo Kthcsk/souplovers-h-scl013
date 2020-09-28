@@ -3,9 +3,10 @@
 
     <div class="row my-flex-card">
 
-          <div class="card mb-2 editcs" *ngFor="let item of items; let i = index;">
+          <div class="card mb-2 editcs" *ngFor="let item of filteredRecipes; let i = index;">
+            <!-- [class.tag-style]="item.tag === Vegetariano || Vegano" -->
             <div class="img-cs">
-              <button type="button" class="btn mt-3 ml-3 b-tagcs">{{item.tag}}</button>
+              <button type="button" class="btn mt-4 ml-4 b-tagcs tag-style">{{item.tag}}</button>
               <img src="{{item.image}}" class="card-img-top w-100" style="object-fit: cover;" alt="{{item.name}}"> </div>
 
             <div class="card-body">
