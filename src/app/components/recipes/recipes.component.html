@@ -6,7 +6,7 @@
           <div class="card mb-2 editcs" *ngFor="let item of filteredRecipes; let i = index;">
             <!-- [class.tag-style]="item.tag === Vegetariano || Vegano" -->
             <div class="img-cs">
-              <button type="button" class="btn mt-4 ml-4 b-tagcs tag-style">{{item.tag}}</button>
+              <button type="button" class="btn mt-4 ml-4 b-tagcs" [class.tag-style]="item.tag === 'Vegetariano' && 'Vegano'">{{item.tag}}</button>
               <img src="{{item.image}}" class="card-img-top w-100" style="object-fit: cover;" alt="{{item.name}}"> </div>
 
             <div class="card-body">
@@ -17,7 +17,7 @@
               <p class="card-text">{{item.description}}</p>
               <p class="card-text ml-3"><small class="text-muted text-right">  ____________________________  </small></p>
               <div class="row">
-              <img src="{{item.icon}}" class="ml-3" style="width: 3rem;" alt="{{item.icon}}"> <!--Duda con el alt-->
+              <img src="{{item.icon}}" class="ml-3" style="width: 3rem;" alt="{{item.icon}}">
               <p class="card-text ml-3"><small class="text-muted text-right">{{item.time}} </small></p>
               <p class="card-text ml-3"><small class="text-muted text-right"> {{item.portions}}</small></p>
             </div>

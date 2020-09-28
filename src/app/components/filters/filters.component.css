@@ -1,6 +1,30 @@
-.dropdown{
-    background-color: #F3F1F1;
+.title-icon{
+    width: 4rem;
+    margin-right: 1rem;
 }
+
+.list-icon{
+    width: 3rem;
+    height: 4.25rem;
+    margin-right: 2rem;
+}
+
+.btn filter-type{
+   
+    border-radius: 3rem;   
+}
+
+.editbtn-s{
+    background-color: #F3F1F1;
+    border-radius: 8px;
+    width: 19.125rem;
+    height: 4.75rem;
+  
+}
+  
+
+
+   
 
 /* @media only screen and (max-width: 400px) {
     img {
