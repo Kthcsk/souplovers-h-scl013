@@ -7,14 +7,14 @@ import { RecipesdataService } from 'src/app/services/recipesdata.service';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  
+
   recipes: any[];
   filteredRecipes: any[];
 
   constructor(private recipesService: RecipesdataService) { }
 
   ngOnInit(): void {
-    this.recipesService.getRecipes().subscribe(
+      this.recipesService.getRecipes().subscribe(
       (data) => {
         this.recipes = data[0]['recipes'];
         this.filteredRecipes = this.recipes;
