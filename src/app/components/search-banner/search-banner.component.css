@@ -1,0 +1,28 @@
+.search-s{
+  background-color:  #DA291C;
+  color: #f7f7f7;
+}
+
+.edit-h2-s{
+  font-family: 'Caveat', cursive;
+  font-style: normal;
+  font-weight: normal;
+   color: #f7f7f7;
+}
+.edit-h1-s{
+  display: flex;
+  font-family: "Clarendon-Regular", serif;
+  color: #f7f7f7;
+  z-index: 3;
+}
+.formsearch-s{
+  border-radius: 8px;
+  border: none;
+}
+.editbtn-s{
+  color: #f7f7f7;
+  background: #2F2F2F;
+  border-radius: 8px;
+
+}
+
