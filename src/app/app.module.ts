@@ -62,7 +62,7 @@ import { AngularfireConectionService } from './services/angularfire-conection.se
     MatButtonModule,
     MatIconModule,
     FlexLayoutModule,
-    HttpClientModule,
+    HttpClientModule
   ],
   providers: [RecipesdataService, AngularfireConectionService],
   bootstrap: [AppComponent],

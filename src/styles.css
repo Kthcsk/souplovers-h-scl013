@@ -1,3 +1,9 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  }
+
 @font-face {
   font-family: "Clarendon-Regular";
   src: url("./assets/img/fonts/Clarendon-Regular.ttf");

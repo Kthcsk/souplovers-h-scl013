@@ -1,1 +1,148 @@
-<p>filters works!</p>
+<div class="row">
+    <div class="col">
+      <div ngbDropdown class="d-inline-block dropdown">
+        <button class="btn editbtn-s" id="dropdownBasic1" ngbDropdownToggle>
+            <img src="../../../assets/img/icons/Ingrediente Principal.svg" alt="ingrediente principal" class="title-icon">
+            Ingrediente Principal
+        </button>
+        <div ngbDropdownMenu aria-labelledby="dropdownBasic1" class="dropdown">
+            <button ngbDropdownItem class="filter-type">
+                <img src="../../../assets/img/icons/Carne.svg" alt="carne" class="list-icon">  
+                Carne
+            </button>
+            <button ngbDropdownItem class="filter-type">
+                <img src="../../../assets/img/icons/Cerdo.svg" alt="carne de cerdo" class="list-icon">
+                Carne de Cerdo
+            </button>
+            <button ngbDropdownItem class="filter-type">
+                <img src="../../../assets/img/icons/Frutas.svg" alt="frutas" class="list-icon">
+                Frutas
+            </button>
+            <button ngbDropdownItem class="filter-type">
+                <img src="../../../assets/img/icons/Legumbres.svg" alt="legumbres" class="list-icon">
+                Legumbres
+            </button>
+            <button ngbDropdownItem class="filter-type">
+                <img src="../../../assets/img/icons/Mariscos.svg" alt="mariscos" class="list-icon">
+                Mariscos
+            </button>
+            <button ngbDropdownItem class="filter-type">
+                <img src="../../../assets/img/icons/Pescado.svg" alt="pescado" class="list-icon">
+                Pescado
+            </button>
+            <button ngbDropdownItem class="filter-type">
+                <img src="../../../assets/img/icons/Gallina.svg" alt="pollo" class="list-icon">
+                Pollo
+            </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+        <div ngbDropdown class="d-inline-block dropdown">
+            <button class="btn filter-type" id="dropdownBasic1" ngbDropdownToggle>
+              <img src="../../../assets/img/icons/Mundo.svg" alt="recetas del mundo" class="title-icon">  
+              Recetas del Mundo
+            </button>
+          <div ngbDropdownMenu aria-labelledby="dropdownBasic1" class="dropdown">
+            <button ngbDropdownItem class="filter-type">
+                <img src="../../../assets/img/icons/Alemania.svg" alt="alemana" class="list-icon">
+                Alemana</button>
+            <button ngbDropdownItem class="filter-type">
+                <img src="../../../assets/img/icons/Americana.svg" alt="americana" class="list-icon">
+                Americana
+            </button>
+            <button ngbDropdownItem class="filter-type">
+                <img src="../../../assets/img/icons/Chilena.svg" alt="chilena" class="list-icon">
+                Chilena
+            </button>
+            <button ngbDropdownItem class="filter-type">
+                <img src="../../../assets/img/icons/España.svg" alt="española" class="list-icon">
+                Española
+            </button>
+            <button ngbDropdownItem class="filter-type">
+                <img src="../../../assets/img/icons/Mexicana.svg" alt="mexicana" class="list-icon">
+                Mexicana
+            </button>
+            <button ngbDropdownItem class="filter-type">
+                <img src="../../../assets/img/icons/Peruana.svg" alt="peruana" class="list-icon">
+                Peruana
+            </button>
+            <button ngbDropdownItem class="filter-type">
+                <img src="../../../assets/img/icons/Venezolana.svg" alt="venezolana" class="list-icon">
+                Venezolana
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div ngbDropdown class="d-inline-block dropdown">
+            <button class="btn filter-type" id="dropdownBasic1" ngbDropdownToggle>
+              <img src="../../../assets/img/icons/Momento del dia.svg" alt="tipo de plato" class="title-icon">
+                Tipo de Plato
+            </button>
+          <div ngbDropdownMenu aria-labelledby="dropdownBasic1" class="dropdown">
+            <button ngbDropdownItem class="filter-type" (click)="filter('ensaladas')">
+                <img src="../../../assets/img/icons/Ensaladas.svg" alt="ensaladas" class="list-icon">
+                Ensaladas
+            </button>
+            <button ngbDropdownItem class="filter-type" (click)="filter('picoteo')">
+                <img src="../../../assets/img/icons/Picoteo.svg" alt="picoteo" class="list-icon">
+                Picoteo
+            </button>
+            <button ngbDropdownItem class="filter-type" (click)="filter('principal')">
+                <img src="../../../assets/img/icons/Momento del dia.svg" alt="plato principal" class="list-icon">
+                Plato Principal
+            </button>
+            <button ngbDropdownItem class="filter-type" (click)="filter('postre')">
+                <img src="../../../assets/img/icons/Postres.svg" alt="postres" class="list-icon">
+                Postres
+            </button>
+            <button ngbDropdownItem class="filter-type" (click)="filter('saludable')">
+                <img src="../../../assets/img/icons/Saludable.svg" alt="saludables" class="list-icon">
+                Saludables
+            </button>
+            <button ngbDropdownItem class="filter-type" (click)="filter('sopas y cremas')">
+                <img src="../../../assets/img/icons/Sopas.svg" alt="sopas y cremas" class="list-icon">
+                Sopas y Cremas
+            </button>
+            <button ngbDropdownItem class="filter-type" (click)="filter('vegano')">
+                <img src="../../../assets/img/icons/Vegano.svg" alt="Vegano" class="list-icon">
+                Vegano
+            </button>
+            <button ngbDropdownItem class="filter-type" (click)="filter('vegetariano')">
+                <img src="../../../assets/img/icons/Vegetariano.svg" alt="vegetariano" class="list-icon">
+                Vegetariano
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div ngbDropdown class="d-inline-block dropdown">
+            <button class="btn filter-type" id="dropdownBasic1" ngbDropdownToggle>
+                <img src="../../../assets/img/icons/Sandwich.svg" alt="momento del día" class="title-icon">
+                Momento del Día
+            </button>
+          <div ngbDropdownMenu aria-labelledby="dropdownBasic1" class="dropdown">
+            <button ngbDropdownItem class="filter-type">
+                <img src="../../../assets/img/icons/Almuerzo.svg" alt="almuerzo" class="list-icon">
+                Almuerzo
+            </button>
+            <button ngbDropdownItem class="filter-type">
+                <img src="../../../assets/img/icons/Pizza.svg" alt="cena" class="list-icon">
+                Cena
+            </button>
+            <button ngbDropdownItem class="filter-type">
+                <img src="../../../assets/img/icons/Desayuno.svg" alt="desayuno" class="list-icon">
+                Desayuno
+            </button>
+            <button ngbDropdownItem class="filter-type">
+                <img src="../../../assets/img/icons/Te.svg" alt="la once" class="list-icon">
+                La Once
+            </button>
+          </div>
+        </div>
+      </div>   
+</div>
