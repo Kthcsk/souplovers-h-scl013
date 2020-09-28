@@ -3,26 +3,35 @@
 
     <div class="row my-flex-card">
 
-          <div class="card mb-2 editcs" *ngFor="let item of filteredRecipes; let i = index;">
-            <!-- [class.tag-style]="item.tag === Vegetariano || Vegano" -->
-            <div class="img-cs">
-              <button type="button" class="btn mt-4 ml-4 b-tagcs tag-style">{{item.tag}}</button>
-              <img src="{{item.image}}" class="card-img-top w-100" style="object-fit: cover;" alt="{{item.name}}"> </div>
+      <div class="card mb-2 editcs" *ngFor="let item of filteredRecipes; let i = index;">
+        <!-- [class.tag-style]="item.tag === Vegetariano || Vegano" -->
+        <div class="img-cs">
+          <button type="button" class="btn mt-4 ml-4 "
+          [class.tagV]="item.tag === tagV[0] || item.tag === tagV[1] || item.tag === tagV[2]"
+          [class.tagO]="item.tag === tagO[0] || item.tag === tagO[1] || item.tag === tagO[2]"
+          >
+          {{item.tag}}
+        </button>
+          <img src="{{item.image}}" class="card-img-top w-100" style="object-fit: cover;" alt="{{item.name}}"> </div>
 
-            <div class="card-body">
-              <div class="row">
-              <h5 class="card-title ml-2">{{item.name}}</h5>
-             <img src="https://raw.githubusercontent.com/LiRizo/souplovers-h-scl013/d6bd6b71352a45116b130211c468002a203245be/src/assets/img/icons/heart.svg" class="ml-2 heart-s" alt="heart"> </div>
-
-              <p class="card-text">{{item.description}}</p>
-              <p class="card-text ml-3"><small class="text-muted text-right">  ____________________________  </small></p>
-              <div class="row">
-              <img src="{{item.icon}}" class="ml-3" style="width: 3rem;" alt="{{item.icon}}"> <!--Duda con el alt-->
-              <p class="card-text ml-3"><small class="text-muted text-right">{{item.time}} </small></p>
-              <p class="card-text ml-3"><small class="text-muted text-right"> {{item.portions}}</small></p>
-            </div>
-            </div>
+        <div class="card-body">
+          <div class="row">
+            <h5 class="card-title ml-2">{{item.name}}</h5>
+            <img
+              src="https://raw.githubusercontent.com/LiRizo/souplovers-h-scl013/d6bd6b71352a45116b130211c468002a203245be/src/assets/img/icons/heart.svg"
+              class="ml-2 heart-s" alt="heart">
           </div>
+
+          <p class="card-text">{{item.description}}</p>
+<hr>
+          <div class="row">
+            <img src="{{item.icon}}" class="ml-3" style="width: 3rem;" alt="{{item.icon}}">
+            <!--Duda con el alt-->
+            <p class="card-text ml-3"><small class="text-muted text-right">{{item.time}} </small></p>
+            <p class="card-text ml-3"><small class="text-muted text-right"> {{item.portions}}</small></p>
+          </div>
+        </div>
+      </div>
 
     </div>
 
