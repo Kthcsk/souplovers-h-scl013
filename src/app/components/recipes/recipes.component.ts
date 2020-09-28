@@ -8,9 +8,12 @@ import { Component, OnInit, Input } from '@angular/core';
 
 export class RecipesComponent implements OnInit {
 
+  tagV = ["Vegetariano", "Vegano", "Postre"];
+  tagO =["Saludable", "Sopas y cremas","Principal"];
+
   constructor() {}
 
-    @Input() filteredRecipes: any[];
+  @Input() filteredRecipes: any[];
 
   ngOnInit(): void {
   }

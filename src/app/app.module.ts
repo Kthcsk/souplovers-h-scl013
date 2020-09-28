@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA  } from '@angular/core';
 /*Firebase imports*/
 import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
@@ -11,6 +11,11 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MatSliderModule } from '@angular/material/slider';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatListModule } from '@angular/material/list';
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
+import { FlexLayoutModule } from "@angular/flex-layout";
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
@@ -52,9 +57,15 @@ import { AngularfireConectionService } from './services/angularfire-conection.se
     BrowserAnimationsModule,
     MatSliderModule,
     MatToolbarModule,
+    MatSidenavModule,
+    MatListModule,
+    MatButtonModule,
+    MatIconModule,
+    FlexLayoutModule,
     HttpClientModule
   ],
   providers: [RecipesdataService, AngularfireConectionService],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AppModule { }

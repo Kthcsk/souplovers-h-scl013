@@ -8,15 +8,15 @@ import { RecipesdataService } from 'src/app/services/recipesdata.service';
 })
 export class HomeComponent implements OnInit {
   
-  recipes: any[];
-  filteredRecipes: any[];
+  recipes: any[]; // propiedad recetas array de tipo any
+  filteredRecipes: any[]; // propiedad recetas filtradas array de tipo any
 
   constructor(private recipesService: RecipesdataService) { }
 
-  ngOnInit(): void {
-    this.recipesService.getRecipes().subscribe(
-      (data) => {
-        this.recipes = data[0]['recipes'];
+  ngOnInit(): void { // se cambia de lugar el consumo del servicio
+    this.recipesService.getRecipes().subscribe( //  para que al momento de abrir la página cargar el componente 
+      (data) => {                               // home con el json
+        this.recipes = data['recipes'];
         this.filteredRecipes = this.recipes;
       },
       (err) => {
