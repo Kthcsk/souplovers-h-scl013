@@ -8,13 +8,11 @@ display: flex;
   margin: 2rem;
 
 }
-
 .img-cs{
 display: flex;
-width: 18rem;
+width: 17.9rem;
 height: 12rem;
 }
-
 .b-tagcs{
   position: absolute;
   background: #DA291C;
