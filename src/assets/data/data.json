@@ -139,18 +139,18 @@
       ],
       "preparation": [
         {
-          "id":"a",
-          "img-step":"",
+          "step": "a",
+          "img-step": "src/assets/img/imgSteps/Brownie Banana/Brownie Paso 1.jpg",
           "text": "Comenzamos tomando 150 gramos de avena equivalente a 2 tazas, y las procesamos en una licuadora hasta moler por completo. Reservamos. Tomamos los 2 plátanos maduros, los ponemos en una licuadora y agregamos 3 huevos, 50 gramos de cacao equivalente a 1 taza y 20 gotas de endulzante. Procesamos todo hasta tener una mezcla homogénea."
         },
         {
-          "id":"b",
-          "img-step":"",
+          "step":"b",
+          "img-step":"src/assets/img/imgSteps/Brownie Banana/Brownie Paso 2.jpg",
           "text": "En un bowl incorporamos la mezcla que acabamos de preparar y agregamos la avena procesada que reservamos anteriormente. Revolvemos y añadimos 1 cucharada de bicarbonato para lograr que el brownie tenga una textura esponjosa. Seguimos revolviendo hasta integrar todo. Tomamos 100 gramos de maní sin sal, cortamos la mitad en trozos pequeños y se lo incorporamos a la preparación para seguir mezclando. Una vez lista la mezcla, tomamos un poco de mantequilla y la esparcimos sobre una fuente de vidrio. Luego sobre la misma fuente ponemos papel mantequilla y vertemos la preparación."
         },
         {
-          "id":"c",
-          "img-step":"",
+          "step":"c",
+          "img-step":"src/assets/img/imgSteps/Brownie Banana/Brownie Paso 3.jpg",
           "text": "Tomamos los 50 gramos de maní que nos quedaron y lo ponemos sobre toda la preparación para decorar. Llevamos al horno por 20 a 25 minutos a 180 °C. Pasado el tiempo, retiramos del horno y dejamos reposar entre 45 minutos a 1 hora para enfriar."
         },
         {

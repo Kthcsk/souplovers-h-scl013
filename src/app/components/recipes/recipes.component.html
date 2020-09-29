@@ -9,15 +9,18 @@
       </div>
       <div class="row my-flex-card">
 
-        <div class="card mb-2 editcs" *ngFor="let item of filteredRecipes; let i = index;">
-          <!-- [class.tag-style]="item.tag === Vegetariano || Vegano" -->
-          <div class="img-cs">
-            <button type="button" class="btn mt-4 ml-4 "
-              [class.tagV]="item.tag === tagV[0] || item.tag === tagV[1] || item.tag === tagV[2]"
-              [class.tagO]="item.tag === tagO[0] || item.tag === tagO[1] || item.tag === tagO[2]">
-              {{item.tag}}
-            </button>
-            <img src="{{item.image}}" class="card-img-top w-100" style="object-fit: cover;" alt="{{item.name}}"> </div>
+    <div class="row my-flex-card">
+
+      <div class="card mb-2 editcs" *ngFor="let item of filteredRecipes; let i = index;">
+        <div class="img-cs">
+          <button type="button" class="btn mt-4 ml-4 "
+          [class.tagV]="item.tag === tagV[0] || item.tag === tagV[1] || item.tag === tagV[2]"
+          [class.tagO]="item.tag === tagO[0] || item.tag === tagO[1] || item.tag === tagO[2]"
+          >
+          {{item.tag}}
+        </button>
+          <img src="{{item.image}}" class="card-img-top w-100" style="object-fit: cover;" alt="{{item.name}}"> </div>
+
 
           <div class="card-body">
             <div class="row">
@@ -43,5 +46,4 @@
   </div>
 </div>
 
-<!-- <router-outlet></router-outlet>
- -->
+<!-- <router-outlet></router-outlet>-->

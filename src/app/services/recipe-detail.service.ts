@@ -8,7 +8,7 @@ import { catchError, map } from 'rxjs/operators';
 })
 export class RecipeDetailService {
 
-  private urlRecipesDetailsJson="/assets/data/recipes-data.json";
+  private urlRecipesDetailsJson="/assets/data/data-detail.json";
 
   constructor(private httpClient:HttpClient) { }
 
@@ -29,7 +29,7 @@ export class RecipeDetailService {
     let body = res;
     return body || {};
   }
-  getRecipes():Observable<any>{
+  getRecipesDetails():Observable<any>{
     console.log(this.urlRecipesDetailsJson )
     return this.httpClient.get( this.urlRecipesDetailsJson ).pipe(map(this.extractData), catchError(this.handleError));
 

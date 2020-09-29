@@ -1,0 +1,240 @@
+{
+    "recipes-details": [
+        {
+            "id": "0",
+            "video": "https://www.youtube.com/embed/jxLba0tpTb",
+            "category": "Postre",
+            "name": "Brownie de Banana",
+            "description": "Nada como un rico postre para compartir en familia, con esta increible receta de Brownie de Banana serás la estrella de la casa.",
+            "prep_time": "40-45 min",
+            "img_prep_time": "../../../assets/img/icons/Reloj.svg",
+            "portions": "4 Porciones",
+            "img_portions": "../../../assets/img/icons/Porciones.svg",
+            "difficulty": "Dificultad Baja",
+            "img_difficulty": "../../../assets/img/icons/Dificultad Baja.svg",
+            "ingredients": [
+                {
+                    "quantity":"2 un.",
+                    "name": "Plátano"
+                },
+                {
+                    "quantity":"2 tazas",
+                    "name": "Avena instantánea Selecta"
+                },
+                {
+
+                    "quantity":"200 gr",
+                    "name": "Cacao dulce en polvo Gourmet"
+                },
+                {
+                    "quantity":"100 gr",
+                    "name": "Maní sin sal Unimarc"
+                },
+                {
+                    "quantity":"30 gr",
+                    "name": "Bicarbonato Marco Polo"
+                },
+                {
+                    "quantity":"3 u",
+                    "name": "Huevos"
+                },
+                {
+                    "quantity":"20 gotas",
+                     "name": "Endulzante"
+                },
+                {
+                    "quantity":"1 cucharada",
+                    "name": "mantequilla o aceite"
+                }
+            ],
+            "preparation": [
+                {
+                    "step": "1",
+                    "img_step": "../../../assets/img/imgSteps/Brownie Banana/Brownie Paso 1.jpg",
+                    "text": "Comenzamos tomando 150 gramos de avena equivalente a 2 tazas, y las procesamos en una licuadora hasta moler por completo. Reservamos."
+                },
+                {
+                    "step":"2",
+                    "img_step":"../../../assets/img/imgSteps/Brownie Banana/Brownie Paso 2.jpg",
+                    "text": "Tomamos los 2 plátanos maduros, los ponemos en una licuadora y agregamos 3 huevos, 50 gramos de cacao equivalente a 1 taza y 20 gotas de endulzante. Procesamos todo hasta tener una mezcla homogénea."
+                },
+                {
+                    "step":"3",
+                    "img_step":"../../../assets/img/imgSteps/Brownie Banana/Brownie Paso 3.jpg",
+                    "text": "En un bowl incorporamos la mezcla que acabamos de preparar y agregamos la avena procesada que reservamos anteriormente. Revolvemos y añadimos 1 cucharada de bicarbonato para lograr que el brownie tenga una textura esponjosa. Seguimos revolviendo hasta integrar todo."
+                },
+                {
+                    "step":"4",
+                    "img_step":"../../../assets/img/imgSteps/Brownie Banana/Brownie Paso 4.jpg",
+                    "text": "Tomamos 100 gramos de maní sin sal, cortamos la mitad en trozos pequeños y se lo incorporamos a la preparación para seguir mezclando. Una vez lista la mezcla, tomamos un poco de mantequilla y la esparcimos sobre una fuente de vidrio. Luego sobre la misma fuente ponemos papel mantequilla y vertemos la preparación."
+                },
+                {
+                    "step":"5",
+                    "img_step":"../../../assets/img/imgSteps/Brownie Banana/Brownie Paso 5.jpg",
+                    "text": "Tomamos los 50 gramos de maní que nos quedaron y lo ponemos sobre toda la preparación para decorar. Llevamos al horno por 20 a 25 minutos a 180 °C. Pasado el tiempo, retiramos del horno y dejamos reposar entre 45 minutos a 1 hora para enfriar."
+                },
+                {
+                    "step": "6",
+                    "img_step": "../../../assets/img/imgSteps/Brownie Banana/Brownie Paso 6.jpg",
+                    "text": "Para emplatar, retiramos el brownie de la bandeja y cortamos en 8 partes iguales. Ponemos dos trozos triangulares en cada plato y listo."
+                }
+            ]
+        },
+        {
+            "id": "1",
+            "video": "https://www.youtube.com/embed/h2W9TDYWcTk",
+            "category": "Vegetariano",
+            "name": "Souffle de Zanahoria",
+            "description": "Un plato ligero elaborado al horno con zanahoria y salsa bechamel a la que se incorporan claras de huevos batidas a punto de nieve.",
+            "prep_time": "50-60 min",
+            "img_prep_time": "../../../assets/img/icons/Reloj.svg",
+            "portions": "4 Porciones",
+            "img_portions": "../../../assets/img/icons/Porciones.svg",
+            "difficulty": "Dificultad Baja",
+            "img_difficulty": "../../../assets/img/icons/Dificultad Media.svg",
+            "ingredients": [
+                {
+                    "quantity":"1 kg",
+                    "name": "Zanahoria"
+                },
+                {
+                    "quantity":"40 gr",
+                    "name": "Queso parmesano rallado Colun"
+                },
+                {
+                    "quantity":"6 u",
+                    "name": "Huevos blanco Unimarc"
+                },
+                {
+                    "quantity":"250 gr",
+                    "name": "Cebolla"
+                },
+                {
+                    "quantity":"400 ml",
+                    "name": "Leche entera natural Colun"
+                },
+                {
+                    "quantity":"(a gusto)",
+                    "name": "Sal"
+                },
+                {
+                    "quantity":"(a gusto)",
+                    "name": "Pimienta"
+                }
+            ],
+            "preparation":[
+                {
+                    "step": "1",
+                    "img_step": "../../../assets/img/imgSteps/Suffle de Zanahoria/Suffle Paso 1.jpg",
+                    "text": "Cortamos la cebolla en tiras delgadas y las sofreímos en un sartén hasta cristalizar.Agregamos a las cebollas un poco de agua y sal para hidratar, y una vez que desaparezca el agua y tomen un tono marrón, las dejamos reposar."
+                },
+                {
+                    "step":"2",
+                    "img_step":"../../../assets/img/imgSteps/Suffle de Zanahoria/Suffle Paso 2.jpg",
+                    "text": "Reservamos cuatro zanahorias y el resto las cortamos en rodajas para cocer en una olla con agua hirviendo durante 12 minutos a fuego alto."
+                },
+                {
+                    "step":"3",
+                    "img_step":"../../../assets/img/imgSteps/Suffle de Zanahoria/Suffle Paso 3.jpg",
+                    "text":"En otra olla ponemos 50 g de mantequilla a fuego bajo, agregamos tres cucharadas de harina y revolvemos hasta que esta se compacte un poco. Agregamos leche fría a la olla con harina, junto a un poco de sal y pimienta, revolvemos suavemente y cocinamos durante 20 minutos a fuego alto."
+                },
+                {
+                    "step":"4",
+                    "img_step":"../../../assets/img/imgSteps/Suffle de Zanahoria/Suffle Paso 4.jpg",
+                    "text": "Rallamos las cuatro zanahorias reservadas."
+                },
+                {
+                    "step":"5",
+                    "img_step":"../../../assets/img/imgSteps/Suffle de Zanahoria/Suffle Paso 5.jpg",
+                    "text":"Separamos las yemas de las claras, para luego batir las claras hasta punto de nieve y después batir las yemas."
+                },
+                {
+                    "step":"6",
+                    "img_step":"../../../assets/img/imgSteps/Suffle de Zanahoria/Suffle Paso 6.jpg",
+                    "text":"Juntamos la zanahoria rallada con la cebolla caramelizada y la zanahoria procesada, agregamos medio queso rallado revolviendo la mezcla.  Incorporamos la yema batida a la mezcla y revolvemos suavemente de forma envolvente hasta tener una mezcla homogénea."
+                },
+                {
+                    "step":"7",
+                    "img_step":"../../../assets/img/imgSteps/Suffle de Zanahoria/Suffle Paso 7.jpg",
+                    "text":"Agregamos la clara batida revolviendo suavemente en movimiento envolvente incorporando el resto de la harina a la mezcla para dar firmeza."
+                },
+                {
+                    "step":"8",
+                    "img_step":"../../../assets/img/imgSteps/Suffle de Zanahoria/Suffle Paso 8.jpg",
+                    "text":"Tomamos unos pocillos y en el fondo ponemos un poco de bechamel, para luego verter la mezcla en su interior. Espolvoreamos el resto del queso rallado encima de la mezcla en los pocillos."
+                },
+                {
+                    "step":"9",
+                    "img_step":"../../../assets/img/imgSteps/Suffle de Zanahoria/Suffle Paso 9.jpg",
+                    "text":"Llevamos los pocillos al horno en doble función a 180ºC durante 15 a 20 minutos y finalizamos con la función grill. Sacamos cuidado de quemarnos y servimos."
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "video": "https://www.youtube.com/embed/qE0t_1DmHhI",
+            "category": "Saludable",
+            "name": "Huevos Rellenos",
+            "description": "Elaborado con huevos duros rellenos con choclo, una receta deliciosa, fácil y rápida de hacer,  ideal para coompratir con la familia.",
+            "prep_time": "40-45 min",
+            "img_prep_time": "../../../assets/img/icons/Reloj.svg",
+            "portions": "4 Porciones",
+            "img_portions": "../../../assets/img/icons/Porciones.svg",
+            "difficulty": "Dificultad Baja",
+            "img_difficulty": "../../../assets/img/icons/Dificultad Baja.svg",
+            "ingredients": [
+                {
+                    "quantity": "6 u",
+                    "name": "Huevos Unimarc"
+                },
+                {
+                    "quantity": "200 ml",
+                    "name":"Crema Larga Vida Colun"
+                },
+                {
+                    "quantity":"",
+                    "name": "Lechuga escarola"
+                },
+                {
+                    "quantity":"340 gr",
+                    "name": "Choclo Wasil"
+                },
+                {
+                    "quantity": "150 gr",
+                    "name": "Sofritos Frutos del Maipo"
+                },
+                {
+                    "quantity":"150 gr",
+                    "name":"Mix de pimentones congelados Frutos del Maipo"
+                }
+            ],
+            "preparation":[
+                {
+                    "step":"1",
+                    "img_step": "../../../assets/img/imgSteps/HuevosRellenos/Paso 1.png",
+                    "text":"Cocer los 6 huevos en una olla con agua fría y luego que el agua hierva dejar durante 5 minutos. Luego, colar los huevos y enjuagarlos con agua fría, pelarlos y reservar."
+                },
+                {
+                    "step":"2",
+                    "img_step":"../../../assets/img/imgSteps/HuevosRellenos/Paso 2.jpg",
+                    "text":"Lavar y picar la lechuga en tiritas finas y reservar. Calentar un sartén con una pizca de aceite y sofreír el mix de pimentones con aliño a gusto."
+                },
+                {
+                    "step":"3",
+                    "img_step":"../../../assets/img/imgSteps/HuevosRellenos/Paso 3.jpg",
+                    "text": "En un bowl mezclar el choclo con la mitad de la crema y reservar. Partirlos huevos por la mitad y ahuecarlos sacando las yemas. Luego, mezclar las yemas con el choclo , agregar una pizca de sal, orégano, aliño completo y revolver todo, moliendo las yemas."
+                },
+                {
+                    "step":"4",
+                    "img_step":"../../../assets/img/imgSteps/HuevosRellenos/Paso 4.jpg",
+                    "text":"En una fuente aliñar la lechuga con pizca de limón, sal, aceite, y reservar. Rellenar los huevos con la mezcla de choclo y crema."
+                },
+                {
+                    "step":"5",
+                    "img_step":"../../../assets/img/imgSteps/HuevosRellenos/Paso 5.jpg",
+                    "text": "Servir en cada plato una porción de lechuga, poner 3 mitades de huevos rellenos, y pimentones salteados. Todo listo para disfrutar en familia."
+                }
+            ]
+        }
+    ]
+}
