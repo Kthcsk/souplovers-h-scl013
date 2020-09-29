@@ -8,21 +8,37 @@
     height: 4.25rem;
     margin-right: 2rem;
 }
-.filter-type{
+
+.filter-type, .editbtn-s{
   font-family: "apex-sans-book-regular";
   color: #333333;
+  background-color: #F3F1F1;
+  width: 19.125rem;
 }
-.btn filter-type{
 
-    border-radius: 3rem;
-    }
+.filter-type{
+    height: 4.25rem;
+}
+
+.filter-type:hover{
+    background-color: #333333;
+    color: #F3F1F1;
+}
+
+.list-icon:hover{
+    color: #F3F1F1 !important;
+}
 
 .editbtn-s{
-    background-color: #F3F1F1;
     border-radius: 8px;
-    width: 19.125rem;
     height: 4.75rem;
+}
 
+.editbtn-s:focus{
+    outline:none !important;
+    border: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
 }
 
 

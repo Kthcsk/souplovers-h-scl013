@@ -1,4 +1,7 @@
-<app-search-banner></app-search-banner>
+<app-search-banner
+[recipes]="recipes"
+(filteredRecipesEmmiter)="newFilteredRecipes($event)">
+</app-search-banner>
 <app-filters
 [recipes]="recipes"
 (filteredRecipesEmmiter)="newFilteredRecipes($event)">
