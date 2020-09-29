@@ -3,9 +3,9 @@
 [recipes]="recipes"
 (filteredRecipesEmmiter)="newFilteredRecipes($event)">
 </app-filters>
-<div class="d-flex justify-content-center">
+<div>
   <app-recipes
   [filteredRecipes]="filteredRecipes"></app-recipes>
-</div> 
+</div>
 <router-outlet></router-outlet>
 

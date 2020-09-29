@@ -8,27 +8,30 @@
     height: 4.25rem;
     margin-right: 2rem;
 }
-
-.btn filter-type{
-   
-    border-radius: 3rem;   
+.filter-type{
+  font-family: "apex-sans-book-regular";
+  color: #333333;
 }
+.btn filter-type{
+
+    border-radius: 3rem;
+    }
 
 .editbtn-s{
     background-color: #F3F1F1;
     border-radius: 8px;
     width: 19.125rem;
     height: 4.75rem;
-  
+
 }
-  
 
 
-   
+
+
 
 /* @media only screen and (max-width: 400px) {
     img {
-     width: 26px;   
+     width: 26px;
      height: 24px;
     }
 }
