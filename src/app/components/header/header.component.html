@@ -1,18 +1,69 @@
-<header class="full-header">
-  <div class="red-header">
-    <div>
-      <a href="https://www.unimarc.cl/corporativo/nuestra-empresa/">Nuestra Empresa</a>
-      <span>/</span>
-      <a href="https://www.unimarc.cl/corporativo/proveedores/">Proveedores</a>
-      <span>/</span>
-      <a href="https://www.unimarc.cl/corporativo/contacto/">Contacto</a>
-      <span>/</span>
-      <a href="https://rbksmu.rubrika.cl/postulacionGW.php?token=R1JabUhTZmV3eDIrN3VwcHpFSW5aNWJtVmtBZXl4Z0tSOFYvV1pQSHhaOGFWMjVFRHd2dHJWV3VRb2RsVVFtSHJwUnB2YStDemdJdXQrQ2tLekxOd0E9PQ">Trabajo con nosotros</a>
-    </div>
-  </div>
+<div style="height: 20vh;">
+  <mat-toolbar class="red-nav">
+    <mat-toolbar-row>
+      <button mat-icon-button (click)="sidenav.toggle()" fxShow="true" fxHide.gt-sm>
+        <mat-icon>menu</mat-icon>
+      </button>
 
-  <div class="white-header">
+      <div fxShow="true" fxHide.lt-md>
+        <!-- Los siguientes elementos del menú se ocultarán en los tamaños de pantalla SM y XS -->
+        <a href="https://www.unimarc.cl/corporativo/nuestra-empresa/" class="apex-regular without-decoration" mat-button>Nuestra empresa</a>
+        <span class="apex-regular">/</span>
+        <a href="https://www.unimarc.cl/corporativo/proveedores/" class="apex-regular without-decoration" mat-button>Proveedores</a>
+        <span class="apex-regular">/</span>
+        <a href="https://www.unimarc.cl/corporativo/contacto/" class="apex-regular without-decoration" mat-button>Contacto</a>
+        <span class="apex-regular">/</span>
+        <a href="https://rbksmu.rubrika.cl/postulacionGW.php?token=R1JabUhTZmV3eDIrN3VwcHpFSW5aNWJtVmtBZXl4Z0tSOFYvV1pQSHhaOGFWMjVFRHd2dHJWV3VRb2RsVVFtSHJwUnB2YStDemdJdXQrQ2tLekxOd0E9PQ" class="apex-regular without-decoration" mat-button>Trabaja con nosotros</a>
+        <span aria-hidden="false" aria-label="Icon Phone"><img class="icon-nav" src="../../../assets/img/icons/Telefono.svg" alt="icon-phone"></span>
+        <span class="clarendon-bold" mat-button>Servicio al cliente 600 600 0025</span>
+        <a mat-icon-button src="https://www.facebook.com/unimarc" aria-hidden="false" aria-label="Icon Facebook"><img class="icon-nav" src="../../../assets/img/icons/Facebook.svg" alt="icon-facebook"></a>
+        <a mat-icon-button src="https://www.twitter.com/unimarc" aria-hidden="false" aria-label="Icon Twitter"><img class="icon-nav" src="../../../assets/img/icons/Twitter.svg" alt="icon-twitter"></a>
+        <a mat-icon-button src="https://www.youtube.com/user/unimarccl" aria-hidden="false" aria-label="Icon Youtube"><img class="icon-nav" src="../../../assets/img/icons/Youtube.svg" alt="icon-youtube"></a>
+        <a mat-icon-button src="https://open.spotify.com/user/unimarc_cl" aria-hidden="false" aria-label="Icon Spotify"><img class="icon-nav" src="../../../assets/img/icons/Spotify.svg" alt="icon-spotify"></a>
+        <a mat-icon-button src="https://www.instagram.com/unimarc/" aria-hidden="false" aria-label="Icon Instagram"><img class="icon-nav" src="../../../assets/img/icons/Instagram.svg" alt="icon-instagram"></a>
+        <button mat-button class="sign-up">Ingreso</button>
+        <button mat-button class="sign-in">Registro</button>
+        <button mat-icon-button aria-hidden="false" aria-label="Example home icon"><img class="icon-nav" src="../../../assets/img/icons/Carrito de Compra.svg"></button>
 
-  </div>
-</header>
+      </div>
+    </mat-toolbar-row>
+  </mat-toolbar>
+    <mat-toolbar class="white-nav">
+    <mat-toolbar-row class="white-nav">
+      <button mat-icon-button (click)="sidenav.toggle()" fxShow="true" fxHide.gt-sm>
+        <mat-icon>menu</mat-icon>
+      </button>
+      <span class="menu-spacer"></span>
+      <img class="logo-unimarc" src="../../../assets/logo-unimarc.png">
+      <div fxShow="true" fxHide.lt-md>
+        <!-- Los siguientes elementos del menú se ocultarán en los tamaños de pantalla SM y XS -->
+        <a href="#" class="clarendon-bold red" mat-button>HOME</a>
+        <span>/</span>
+        <a href="#" class="clarendon-bold red" mat-button>CATÁLOGO</a>
+        <span>/</span>
+        <a href="#" class="clarendon-bold red" mat-button>CLUB AHORRO</a>
+        <span>/</span>
+        <a href="#" class="clarendon-bold red" mat-button>RECETAS</a>
+        <span>/</span>
+        <a href="#" class="clarendon-bold red" mat-button>OFERTAS</a>
+        <span>/</span>
+        <a href="#" class="clarendon-bold red" mat-button>LOCALES Y HORARIOS</a>
+        <button class="clarendon-bold text-size" mat-button>a-</button>
+        <button class="clarendon-bold red-text-size" mat-button>a</button>
+        <button class="clarendon-bold text-size" mat-button>a+</button>
+      </div>
+    </mat-toolbar-row>
+  </mat-toolbar>
 
+    <mat-sidenav #sidenav>
+      <mat-nav-list>
+        <a (click)="sidenav.toggle()" href="" mat-list-item>Cerrar</a>
+        <a href="https://www.unimarc.cl/corporativo/nuestra-empresa/" mat-list-item>Nuestra empresa</a>
+        <a href="https://www.unimarc.cl/corporativo/proveedores/" mat-list-item>Proveedores</a>
+        <a href="https://www.unimarc.cl/corporativo/contacto/" mat-list-item>Contacto</a>
+        <a href="https://rbksmu.rubrika.cl/postulacionGW.php?token=R1JabUhTZmV3eDIrN3VwcHpFSW5aNWJtVmtBZXl4Z0tSOFYvV1pQSHhaOGFWMjVFRHd2dHJWV3VRb2RsVVFtSHJwUnB2YStDemdJdXQrQ2tLekxOd0E9PQ" mat-list-item>Trabaja con nosotros</a>
+        <a href="#" mat-list-item>Menu Item 5</a>
+        <a href="#"mat-list-item>Menu Item 6</a>
+      </mat-nav-list>
+    </mat-sidenav>
+</div>

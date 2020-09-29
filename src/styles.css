@@ -8,6 +8,7 @@
   font-family: "Clarendon-Regular";
   src: url("./assets/img/fonts/Clarendon-Regular.ttf");
 }
+
 @font-face {
   font-family: "apex-sans-book-regular";
   src: url("./assets/img/fonts/apex-sans-book-regular.ttf");
@@ -16,10 +17,18 @@
 /* h1{
   font-family: "Clarendon-Regular", serif;
 }
+
 h2{
 font-family: "apex-sans-book-regular", serif;
 } */
 
+.mat-button .mat-button-focus-overlay {
+  background-color: transparent;
+}
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

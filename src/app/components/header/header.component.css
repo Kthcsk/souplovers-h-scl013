@@ -1,12 +1,99 @@
-
-/* start red header */
-.red-header{
-background-color: #DA291C;
+.menu-spacer {
+  flex: 1 1 auto;
 }
-/* end red header */
-
-/* start white header */
-.white-header{
-  background-color: #FAFAFA;
+/* Fonts */
+.apex-bold {
+  font-family: "apex-sans-book-regular";
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
 }
-/* end white header */
+
+.apex-regular {
+  font-family: "apex-sans-book-regular";
+  font-weight: 500;
+  font-size: 15px;
+  text-align: center;
+}
+
+.clarendon-bold {
+  font-family: "Clarendon-Regular";
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+}
+
+.clarendon-regular {
+  font-family: "Clarendon-Regular", serif;
+}
+
+/* end font */
+
+/* start red nav */
+.red-nav {
+  background-color: #DA291C;
+  color: white;
+}
+
+.mat-toolbar-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.red:hover {
+  color: #DA291C;
+  text-decoration: none;
+}
+
+.without-decoration {
+  padding: 4px;
+}
+
+.without-decoration:hover {
+  text-decoration: none;
+  color: #2F2C2C;
+}
+
+/* end red nav */
+
+.white-nav {
+  background-color: #FFFFFF;
+  color: #5C5B5B;
+  display: flex;
+}
+
+
+
+.sign-in,.sign-up {
+  display: inline-block;
+  width: 7.0625rem;
+  height: 1.5625rem;
+  border-radius: 3px;
+  outline: none;
+  border: solid 1px #FAFAFA;
+  text-align: center;
+  line-height: 1.5625rem;
+  margin: 0 5px 0 5px;
+}
+
+.icon-nav {
+  width: 20px;
+}
+
+.text-size, .red-text-size {
+  display: inline-block;
+  width: 37px;
+  height: 43px;
+  text-align: center;
+  outline: none;
+  border: solid 1px #E0E0E0;
+  box-sizing: border-box;
+  border-radius: 0;
+  margin: 6px;
+}
+
+.red-text-size {
+  background-color: #DA291C;
+  color: #FAFAFA;
+}
