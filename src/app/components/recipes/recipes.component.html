@@ -4,7 +4,6 @@
     <div class="row my-flex-card">
 
       <div class="card mb-2 editcs" *ngFor="let item of filteredRecipes; let i = index;">
-        <!-- [class.tag-style]="item.tag === Vegetariano || Vegano" -->
         <div class="img-cs">
           <button type="button" class="btn mt-4 ml-4 "
           [class.tagV]="item.tag === tagV[0] || item.tag === tagV[1] || item.tag === tagV[2]"
@@ -23,7 +22,7 @@
           </div>
 
           <p class="card-text">{{item.description}}</p>
-<hr>
+            <hr>
           <div class="row">
             <img src="{{item.icon}}" class="ml-3" style="width: 3rem;" alt="{{item.icon}}">
             <!--Duda con el alt-->
