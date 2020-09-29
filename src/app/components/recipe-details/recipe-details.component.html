@@ -1,24 +1,19 @@
-<div>
-  <div *ngFor="let recipeDetail of recipesDetails; index as i">
-    <!-- <iframe src="{{recipeDetail.video}}" frameborder="0"></iframe> --><!--  Da error ;_;-->
-    <p>{{recipeDetail.name}}</p>
-    <p>{{recipeDetail.prep_time}}</p>
-    <img src="{{recipeDetail.img_prep_time}}" alt="">
-    <p>{{recipeDetail.portions}}</p>
-    <img src="{{recipeDetail.img_portions}}" alt="">
-    <p>{{recipeDetail.difficulty}}</p>
-    <img src="{{recipeDetail.img_difficulty}}" alt="">
-    <p>{{recipeDetail.description}}</p>
-
-    <div *ngFor="let ingredient of recipeDetail.ingredients">
-      <p>{{ingredient.name}}</p>
-      <p>{{ingredient.quantity}}</p>
+<div class="d-flex justify-content-center">
+<div class="card mb-3"*ngFor="let recipeDetail of recipesDetails; index as i" style="max-width: 540px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <!-- <iframe src="{{recipeDetail.video}}" frameborder="0"></iframe> --><!--  Da error ;_;-->
+      <img src="..." class="card-img" alt="...">
     </div>
-    <div *ngFor="let preparation of recipeDetail.preparation">
-      <p>{{preparation.text}}</p>
-      <img src="{{preparation.img_step}}" alt="">
+    <div class="col-md-8">
+      <div class="card-body">
+        <p class="card-text">{{recipeDetail.category}}</p>
+        <h5 class="card-title">{{recipeDetail.name}}</h5>
+        <p class="card-text">{{recipeDetail.description}}</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
     </div>
   </div>
 </div>
+</div>
 
-<!-- <iframe width="700" height="394" src="https://www.youtube.com/embed/U4ClatE4bAY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
