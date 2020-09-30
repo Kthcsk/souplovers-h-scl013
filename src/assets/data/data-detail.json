@@ -12,6 +12,7 @@
             "img_portions": "../../../assets/img/icons/Porciones.svg",
             "difficulty": "Dificultad Baja",
             "img_difficulty": "../../../assets/img/icons/Dificultad Baja.svg",
+            "star":"../../../assets/img/icons/Estrella Color.svg",
             "ingredients": [
                 {
                     "quantity":"2 un.",

@@ -1,0 +1,9 @@
+.bgs{
+   background-image: src("/src/assets/img/recipesList/background.svg");
+ }
+ .editcar-s{
+  max-width: 70rem;
+}
+.iconrd-s{
+  width: 3rem;
+}

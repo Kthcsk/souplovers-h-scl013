@@ -1,19 +1,53 @@
+<div class="container-fluid bgs">
 <div class="d-flex justify-content-center">
-<div class="card mb-3"*ngFor="let recipeDetail of recipesDetails; index as i" style="max-width: 540px;">
-  <div class="row no-gutters">
-    <div class="col-md-4">
-      <!-- <iframe src="{{recipeDetail.video}}" frameborder="0"></iframe> --><!--  Da error ;_;-->
-      <img src="..." class="card-img" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <p class="card-text">{{recipeDetail.category}}</p>
-        <h5 class="card-title">{{recipeDetail.name}}</h5>
-        <p class="card-text">{{recipeDetail.description}}</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+  <div class="card mb-3 editcar-s" *ngFor="let recipeDetail of recipesDetails; index as i">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <!-- <iframe src="{{recipeDetail.video}}" frameborder="0"></iframe> -->
+        <!--  Da error ;_;-->
+        <img class="card-img" src="/assets/img/recipesList/Youtube.png" alt="">
+
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <p class="card-text">{{recipeDetail.category}}</p>
+          <h5 class="card-title">{{recipeDetail.name}}</h5>
+          <p class="card-text col-6">{{recipeDetail.description}}</p>
+
+          <div class="row">
+            <img class="iconrd-s" src="{{recipeDetail.img_prep_time}}" alt="">
+            <p class="card-text"><small class="text-muted">{{recipeDetail.prep_time}}</small></p>
+            <img class="iconrd-s" src="{{recipeDetail.img_portions}}" alt="">
+            <p class="card-text"><small class="text-muted">{{recipeDetail.portions}}</small></p>
+            <img class="iconrd-s" src=" {{recipeDetail.img_difficulty}}" alt="">
+            <p class="card-text"><small class="text-muted">{{recipeDetail.difficulty}}</small></p>
+
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </div>
-</div>
 
+<section>
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 order-1">
+        <div class="p-5">
+          <img class="img-fluid" src="/assets/img/recipesList/Youtube.png" alt="">
+        </div>
+      </div>
+      <div class="col-md-6 order-2">
+        <div class="p-5">
+          <h2 class="display-4">Apoyo de mujeres para mujeres.</h2>
+          <p>Conviértete en madrina de Muliebris, comprometiéndote en apoyar a las mujeres que han
+            sufrido abusos.</p>
+          <p> Buscamos abogadas, enfermeras, escritoras, madres. Pero sobre todo una persona con gran disposición que
+            esté dispuesta a dar un granito de
+            arena y logremos entre todas estar saludables tanto física como mentalmente.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
