@@ -32,6 +32,7 @@ import { RecipeDetailsComponent } from './components/recipe-details/recipe-detai
 import { HttpClientModule } from '@angular/common/http';
 import { RecipesdataService } from './services/recipesdata.service';
 import { AngularfireConectionService } from './services/angularfire-conection.service';
+import { ShoppingCartComponent } from './components/shopping-cart/shopping-cart.component';
 
 
 @NgModule({
@@ -44,7 +45,8 @@ import { AngularfireConectionService } from './services/angularfire-conection.se
     FiltersComponent,
     RecipesComponent,
     TipsComponent,
-    RecipeDetailsComponent
+    RecipeDetailsComponent,
+    ShoppingCartComponent
   ],
   imports: [
     BrowserModule,

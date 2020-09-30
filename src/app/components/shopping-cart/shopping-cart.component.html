@@ -1,0 +1,9 @@
+<p>shopping-cart works!</p>
+
+<div *ngFor="let item of shoppingCartDetails; index as i">
+    <p>{{item.product}}</p>
+    <img src="{{item.img_cart}}" alt="">
+    <p>{{item.price}}</p>
+    <p>{{item.quantity}}</p>
+</div>
+<router-outlet></router-outlet>
