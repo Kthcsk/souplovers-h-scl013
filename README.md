@@ -1,13 +1,14 @@
 ## Índice
 
 * [1. Definición de producto](#1-Definición-de-producto)
-* [2. Links de producción](#2- Links-de-producción)
+* [2. Links de producción](#2-Links-de-producción)
 * [3. Definición de Usuario](#3-Definición-de-Usuario)
-* [4. Propuesta de idea / proyecto](#4-Propuesta-de-idea-/-proyecto)
-* [5.  Alcance ¿Cómo podemos hacerlo?](#5-Alcance-¿Cómo-podemos-hacerlo?)
+* [4. Problemática a resolver](#4-Problemática-a-resolver)
+* [5. Propuesta de idea / proyecto](#5-Propuesta-de-idea-/-proyecto)
+* [6. Alcance ¿Cómo podemos hacerlo?](#6-Alcance-¿Cómo-podemos-hacerlo?)
 
 
-<img width: 600; src="https://github.com/LiRizo/souplovers-h-scl013/blob/master/src/assets/img/nacho.png?raw=true">
+<img src="https://github.com/LiRizo/souplovers-h-scl013/blob/master/src/assets/img/nacho.png?raw=true">
 
 ## 1. Definición de producto: 
 
@@ -27,7 +28,7 @@ Te invitamos a ver nuestra versión **responsive (mobile)**
 
 [Te invitamos a ver nuestra versión web **escritorio** :] (https://unimarc-recetas-souplovers.web.app)
 
-            ## 3. Definición de Usuario:
+## 3. Definición de Usuario:
 
 Usuarios dentro de 20 a 60 años que desean hacer sus compras del supermercado de una manera rápida.
 Usuarios con acceso a internet
@@ -37,7 +38,7 @@ Usuarios que quieren comprar online con opción de despacho a domicilio o retiro
 
 
 
-## 3. Problemática a resolver:
+## 4. Problemática a resolver:
 
 Debido a la pandemia más familias realizan actividades en conjunto, una de ellas es cocinar, por ello buscan recetas ricas y convenientes para el bolsillo. Quieren poder comprar todos los ingredientes en un solo lugar y no uno por uno. 
 
@@ -45,7 +46,7 @@ Dada la situación buscan ideas de nuevas recetas y luego deben buscar 1 por 1 c
 
 
 
-## 4. Propuesta de idea / proyecto:
+## 5. Propuesta de idea / proyecto:
 Rediseño de la página de la sección de Recetas de unimarc.cl.
 Rediseño de la página de la sección de la receta seleccionada. 
 Incorporación de selección de ingredientes de la receta para agregarlos a carro de compra. 
@@ -53,7 +54,7 @@ Creación de nueva sección carrito de compra en donde se ven los productos a co
 Según método de pago seleccionado, sección en donde se realiza la transacción según servicio de pago online contratado. 
 Sección calendario donde se puedan crear minutas semanales con las recetas que ofrece la página, personalizado con registro y login de usuario.
 
-           ## 5.  Alcance ¿Cómo podemos hacerlo? 
+## 6.  Alcance ¿Cómo podemos hacerlo? 
 Rediseño de la página de la sección de Recetas de unimarc.cl.
 Rediseño de la página de la sección de la receta seleccionada. 
 Incorporación de selección de ingredientes de la receta para agregarlos a carro de compra. 
@@ -61,11 +62,11 @@ Creación de nueva sección carrito de compra en donde se ven los productos a co
 Cuando vean la receta que aparezcan los ingredientes y las cantidades específicas para 4 porciones.
 Si deciden hacer la receta que exista la opción de darle a comprar los productos y enviarlos al carrito de compras.
 Si tengo ya 1 de los ingredientes desagregar antes de darle al botón de incluir todos los ingredientes de la receta.
-Categorías:
-Ingrediente principal
-Recetas del mundo
-Momento de día 
-Tipo de plato
+**Categorías:**
+- Ingrediente principal
+- Recetas del mundo
+- Momento de día 
+- Tipo de plato
 
 
 
