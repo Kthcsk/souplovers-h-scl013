@@ -79,6 +79,6 @@ Somos el squad **2**
 
 Las **SoupLovers** de la hackathon...
 
-<img src="https://github.com/LiRizo/souplovers-h-scl013/blob/master/src/assets/img/nacho.png?raw=true">
+<img src="https://github.com/LiRizo/souplovers-h-scl013/blob/master/src/assets/img/squad2SoupLovers.jpg?raw=true">
 
 
