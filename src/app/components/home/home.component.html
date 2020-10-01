@@ -1,11 +1,14 @@
-<app-search-banner></app-search-banner>
+<app-search-banner
+[recipes]="recipes"
+(filteredRecipesEmmiter)="newFilteredRecipes($event)">
+</app-search-banner>
 <app-filters
 [recipes]="recipes"
 (filteredRecipesEmmiter)="newFilteredRecipes($event)">
 </app-filters>
-<div class="d-flex justify-content-center">
+<div>
   <app-recipes
   [filteredRecipes]="filteredRecipes"></app-recipes>
-</div> 
+</div>
 <router-outlet></router-outlet>
 

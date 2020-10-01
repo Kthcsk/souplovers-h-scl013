@@ -1,0 +1,91 @@
+{
+    "recipes-details": [
+        {
+            "id": "0",
+            "video": "https://www.youtube.com/embed/jxLba0tpTb",
+            "category": "Postre",
+            "name": "Brownie de Banana",
+            "description": "Nada como un rico postre para compartir en familia, con esta increible receta de Brownie de Banana serás la estrella de la casa.",
+            "prep_time": " 40-45 min ",
+            "img_prep_time": "../../../assets/img/icons/Reloj.svg",
+            "portions": " 4 Porciones ",
+            "img_portions": "../../../assets/img/icons/Porciones.svg",
+            "difficulty": " Dificultad Baja ",
+            "img_difficulty": "../../../assets/img/icons/Dificultad Baja.svg",
+            "star":"../../../assets/img/icons/Estrella Color.svg",
+            "favorite":"../../../assets/img/icons/Favorito.svg",
+            "calendar":"../../../assets/img/icons/Calendario.svg",
+            "list":"../../../assets/img/icons/list.svg",
+            "print":"../../../assets/img/icons/Imprimir.svg",
+            "download":"../../../assets/img/icons/Descargar.svg",
+            "car":"../../../assets/img/icons/Carrito de Compra.svg",
+            "ingredients": [
+                {
+                    "quantity":" 2 un.",
+                    "name": " Plátano"
+                },
+                {
+                    "quantity":" 2 tazas",
+                    "name": " Avena instantánea Selecta"
+                },
+                {
+
+                    "quantity":" 200 gr",
+                    "name": " Cacao dulce en polvo Gourmet"
+                },
+                {
+                    "quantity":" 100 gr",
+                    "name": " Maní sin sal Unimarc"
+                },
+                {
+                    "quantity":" 30 gr",
+                    "name": " Bicarbonato Marco Polo"
+                },
+                {
+                    "quantity":" 3 u",
+                    "name": " Huevos"
+                },
+                {
+                    "quantity":" 20 gotas",
+                     "name": " Endulzante"
+                },
+                {
+                    "quantity":" 1 cucharada",
+                    "name": " mantequilla o aceite"
+                }
+            ],
+            "preparation": [
+                {
+                    "step": "1",
+                    "img_step": "../../../assets/img/imgSteps/Brownie Banana/Brownie Paso 1.jpg",
+                    "text": "Comenzamos tomando 150 gramos de avena equivalente a 2 tazas, y las procesamos en una licuadora hasta moler por completo. Reservamos."
+                },
+                {
+                    "step":"2",
+                    "img_step":"../../../assets/img/imgSteps/Brownie Banana/Brownie Paso 2.jpg",
+                    "text": "Tomamos los 2 plátanos maduros, los ponemos en una licuadora y agregamos 3 huevos, 50 gramos de cacao equivalente a 1 taza y 20 gotas de endulzante. Procesamos todo hasta tener una mezcla homogénea."
+                },
+                {
+                    "step":"3",
+                    "img_step":"../../../assets/img/imgSteps/Brownie Banana/Brownie Paso 3.jpg",
+                    "text": "En un bowl incorporamos la mezcla que acabamos de preparar y agregamos la avena procesada que reservamos anteriormente. Revolvemos y añadimos 1 cucharada de bicarbonato para lograr que el brownie tenga una textura esponjosa. Seguimos revolviendo hasta integrar todo."
+                },
+                {
+                    "step":"4",
+                    "img_step":"../../../assets/img/imgSteps/Brownie Banana/Brownie Paso 4.jpg",
+                    "text": "Tomamos 100 gramos de maní sin sal, cortamos la mitad en trozos pequeños y se lo incorporamos a la preparación para seguir mezclando. Una vez lista la mezcla, tomamos un poco de mantequilla y la esparcimos sobre una fuente de vidrio. Luego sobre la misma fuente ponemos papel mantequilla y vertemos la preparación."
+                },
+                {
+                    "step":"5",
+                    "img_step":"../../../assets/img/imgSteps/Brownie Banana/Brownie Paso 5.jpg",
+                    "text": "Tomamos los 50 gramos de maní que nos quedaron y lo ponemos sobre toda la preparación para decorar. Llevamos al horno por 20 a 25 minutos a 180 °C. Pasado el tiempo, retiramos del horno y dejamos reposar entre 45 minutos a 1 hora para enfriar."
+                },
+                {
+                    "step": "6",
+                    "img_step": "../../../assets/img/imgSteps/Brownie Banana/Brownie Paso 6.jpg",
+                    "text": "Para emplatar, retiramos el brownie de la bandeja y cortamos en 8 partes iguales. Ponemos dos trozos triangulares en cada plato y listo."
+                }
+            ]
+        }
+    ]
+}

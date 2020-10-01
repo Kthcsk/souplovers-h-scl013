@@ -1,5 +1,135 @@
-<div>
-  <div>
+<div class="container-fluid bgs">
 
-  </div>
+  <div class="d-flex justify-content-center pt-5">
+      <div class="card mb-3 editcar-s" *ngFor="let recipeDetail of recipesDetails; index as i">
+        <div class="row">
+          <div class="d-flex justify-content-center mt-4">
+            <div class="col-md-6 films">
+              <!-- <iframe src="{{recipeDetail.video}}" frameborder="0"></iframe> -->
+              <!--  Da error ;_;-->
+              <img class="card-img" src="/assets/img/recipesList/Youtube.png" alt="">
+
+            </div>
+            <div class="col-md-5">
+              <div class="card-body ">
+                <div class="">
+                  <p class="card-text" style="color: #DA291C;">{{recipeDetail.category}}</p>
+                  <h5 class="card-title titlecard-s">{{recipeDetail.name}}</h5>
+                  <p class="card-text">{{recipeDetail.description}}</p>
+                </div>
+                <div class="row">
+                  <img class="iconrd-s" src="{{recipeDetail.img_prep_time}}" alt="">
+                  <p class="card-text"><small class="text-muted"> {{recipeDetail.prep_time}} </small></p>
+                  <img class="iconrd-s" src="{{recipeDetail.img_portions}}" alt="">
+                  <p class="card-text"><small class="text-muted"> {{recipeDetail.portions}} </small></p>
+                  <img class="iconrd-s" src=" {{recipeDetail.img_difficulty}}" alt="">
+                  <p class="card-text"><small class="text-muted"> {{recipeDetail.difficulty}} </small></p>
+
+
+                  <img class="star-s" src=" {{recipeDetail.star}}" alt="">
+                  <img class="star-s" src=" {{recipeDetail.star}}" alt="">
+                  <img class="star-s" src=" {{recipeDetail.star}}" alt="">
+                  <img class="star-s" src=" {{recipeDetail.star}}" alt="">
+                  <img class="star-s" src=" {{recipeDetail.star}}" alt="">
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="col">
+                    <img class="" style="width: 1.8rem;" src="{{recipeDetail.favorite}}" alt="">
+                    <p class="card-text"><small class="text-muted">Favorito </small></p>
+                  </div>
+                  <div class="col">
+                    <img class="" style="width: 1.7rem;" src="{{recipeDetail.calendar}}" alt="">
+                    <p class="card-text"><small class="text-muted">Calendario </small></p>
+                  </div>
+                  <div class="col">
+                    <img class="iconrd-s" src=" {{recipeDetail.list}}" alt="">
+                    <p class="card-text"><small class="text-muted">Lista de super </small></p>
+                  </div>
+                  <div class="col">
+                    <img class="star-s" src=" {{recipeDetail.print}}" alt="">
+                    <p class="card-text"><small class="text-muted">Imprimir </small></p>
+                  </div>
+                  <div class="col">
+                    <img class="star-s" src=" {{recipeDetail.download}}" alt="">
+                    <p class="card-text"><small class="text-muted">Descargar </small></p>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class=""  *ngFor="let recipeDetail of recipesDetails; index as i">
+        <div class="row" >
+          <div class="d-flex justify-content-center">
+            <div class="col-sm-4 mr-5">
+              <div class="card cont-ingre-s">
+                <div class="card-body">
+
+                  <div class="ml-4 titles">
+                    <h5 class="card-title titlecard-s"> Ingredientes
+                      <hr>
+                    </h5>
+                  </div>
+
+                  <div class="col">
+                    <div class="form-check" *ngFor="let ingredient of recipeDetail.ingredients">
+                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                      <label class="form-check-label" for="defaultCheck1">
+                        <div class="row">
+                          <div class="ml-4">
+                            <p>{{ingredient.quantity}}</p>
+                          </div>
+                          <div class="ml-2">
+                            <p>{{ingredient.name}}</p>
+                          </div>
+                        </div>
+                      </label>
+                    </div>
+                    <div>
+                      <img class="img-fluid" src="/src/assets/img/recipesList/clubAhorro.png" alt="">
+                    </div>
+                  </div>
+
+
+                  <a href="#" class="btn buttoncar-s mt-3"><img class="mr-2" style="width: 1.2rem;"
+                      src="{{recipeDetail.car}} " alt="">Agregar al carro</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4 mr-5">
+              <div class="card cont-steps-s">
+                <div class="card-body">
+                  <h5 class="card-title titlecard-s">Preparación
+                    <hr>
+                  </h5>
+
+                  <div class="card mb-3 steps-s" *ngFor="let preparation of recipeDetail.preparation"
+                    style="max-width: 540px;">
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img src="{{preparation.img_step}}" class="card-img imgstep-s" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <p class="card-text">{{preparation.text}}</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+<br>
+<br>
 </div>
