@@ -1,0 +1,63 @@
+.bgs{
+  width: 100%;
+   background-image: url("https://raw.githubusercontent.com/LiRizo/souplovers-h-scl013/10a0b2f65fc8c9f80f18f31289d6119514664cdc/src/assets/img/recipesList/background.svg");
+ }
+ .editcar-s{
+  border: none;
+  background-color: #F7F7F7;
+  max-width: 70rem;
+  height: 25rem;
+}
+.iconrd-s{
+  width: 2rem;
+}
+.star-s{
+  width: 1.5rem;
+}
+/* .films{
+  width: 40rem;
+} */
+.imgstep-s{
+  display: flex;
+  max-width: 8rem;
+}
+.cont-ingre-s{
+  background-color: #F7F7F7;
+  border: none;
+  font-family: "apex-sans-book-regular";
+  text-align: left;
+  width: 25rem;
+
+}
+.cont-steps-s{
+  background-color: #F7F7F7;
+  border: none;
+  font-family: "apex-sans-book-regular";
+  text-align: left;
+  width: 36rem;
+}
+.buttoncar-s{
+  background-color: #DA291C;
+  color: #F7F7F7;
+  font-family: "apex-sans-book-regular";
+}
+
+.titles-ing{
+width: 8rem;
+}
+
+p{
+  font-family: "apex-sans-book-regular";
+  color: #2F2C2C;
+}
+.titlecard-s{
+  font-family: "Clarendon-Regular", serif;
+  color: #2F2C2C;
+}
+.steps-s{
+  background-color: #F7F7F7;
+border: none;
+
+}
+
+

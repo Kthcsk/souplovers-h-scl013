@@ -1,12 +1,16 @@
 .dire-cs{
-  width: 100%;
+width: 100%;
 display: flex;
+}
+.edit-h1-s{
+  display: flex;
+  font-family: "Clarendon-Regular", serif;
+  color: #2F2C2C;
 }
 .editcs{
   display: flex;
   width: 15rem;
   margin: 2rem;
-
 }
 .img-cs{
 display: flex;
@@ -24,7 +28,14 @@ height: 12rem;
   position: absolute;
   color: #f7f7f7;
 }
-
+.titlecard-s{
+  font-family: "Clarendon-Regular", serif;
+  color: #2F2C2C;
+}
+.textcard-s{
+  font-family: "apex-sans-book-regular";
+  color: #2F2C2C;
+}
 .heart-s{
   display: flex;
   width: 2rem;
