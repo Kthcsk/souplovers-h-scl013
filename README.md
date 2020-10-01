@@ -7,7 +7,7 @@
 * [5.  Alcance ¿Cómo podemos hacerlo?](#5-Alcance-¿Cómo-podemos-hacerlo?)
 
 
-<img src="">
+<img width: 600; src="https://github.com/LiRizo/souplovers-h-scl013/blob/master/src/assets/img/nacho.png?raw=true">
 
 ## 1. Definición de producto: 
 
