@@ -6,11 +6,11 @@
             "category": "Postre",
             "name": "Brownie de Banana",
             "description": "Nada como un rico postre para compartir en familia, con esta increible receta de Brownie de Banana serás la estrella de la casa.",
-            "prep_time": "40-45 min",
+            "prep_time": " 40-45 min ",
             "img_prep_time": "../../../assets/img/icons/Reloj.svg",
-            "portions": "4 Porciones",
+            "portions": " 4 Porciones ",
             "img_portions": "../../../assets/img/icons/Porciones.svg",
-            "difficulty": "Dificultad Baja",
+            "difficulty": " Dificultad Baja ",
             "img_difficulty": "../../../assets/img/icons/Dificultad Baja.svg",
             "star":"../../../assets/img/icons/Estrella Color.svg",
             "favorite":"../../../assets/img/icons/Favorito.svg",
@@ -18,39 +18,40 @@
             "list":"../../../assets/img/icons/list.svg",
             "print":"../../../assets/img/icons/Imprimir.svg",
             "download":"../../../assets/img/icons/Descargar.svg",
+            "car":"../../../assets/img/icons/Carrito de Compra.svg",
             "ingredients": [
                 {
-                    "quantity":"2 un.",
-                    "name": "Plátano"
+                    "quantity":" 2 un.",
+                    "name": " Plátano"
                 },
                 {
-                    "quantity":"2 tazas",
-                    "name": "Avena instantánea Selecta"
+                    "quantity":" 2 tazas",
+                    "name": " Avena instantánea Selecta"
                 },
                 {
 
-                    "quantity":"200 gr",
-                    "name": "Cacao dulce en polvo Gourmet"
+                    "quantity":" 200 gr",
+                    "name": " Cacao dulce en polvo Gourmet"
                 },
                 {
-                    "quantity":"100 gr",
-                    "name": "Maní sin sal Unimarc"
+                    "quantity":" 100 gr",
+                    "name": " Maní sin sal Unimarc"
                 },
                 {
-                    "quantity":"30 gr",
-                    "name": "Bicarbonato Marco Polo"
+                    "quantity":" 30 gr",
+                    "name": " Bicarbonato Marco Polo"
                 },
                 {
-                    "quantity":"3 u",
-                    "name": "Huevos"
+                    "quantity":" 3 u",
+                    "name": " Huevos"
                 },
                 {
-                    "quantity":"20 gotas",
-                     "name": "Endulzante"
+                    "quantity":" 20 gotas",
+                     "name": " Endulzante"
                 },
                 {
-                    "quantity":"1 cucharada",
-                    "name": "mantequilla o aceite"
+                    "quantity":" 1 cucharada",
+                    "name": " mantequilla o aceite"
                 }
             ],
             "preparation": [

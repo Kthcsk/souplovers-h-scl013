@@ -10,6 +10,7 @@ export class RecipeDetailsComponent implements OnInit {
 
   recipesDetails: any[] = [];
 
+
   constructor(private recipeDetailService: RecipeDetailService) { }
 
   ngOnInit(): void {
