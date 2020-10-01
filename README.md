@@ -6,6 +6,8 @@
 * [4. Problemática a resolver](#4-Problemática-a-resolver)
 * [5. Propuesta de idea / proyecto](#5-Propuesta-de-idea-/-proyecto)
 * [6. Alcance ¿Cómo podemos hacerlo?](#6-Alcance-¿Cómo-podemos-hacerlo?)
+* [7. ¿Quiénes somos?](7.¿Quiénes-somos?)
+
 
 
 <img src="https://github.com/LiRizo/souplovers-h-scl013/blob/master/src/assets/img/nacho.png?raw=true">
@@ -20,21 +22,23 @@ La definición del producto es una app donde puedes acompañar al usuario que vi
 
  ## 2. Links de producción
 
-Te invitamos a ver nuestra versión **responsive (mobile)**
+Te invitamos a ver nuestros prototipos de alta fidelidad:
 
-[Te invitamos a ver nuestro prototipo de alta fidelidad versión **mobile**:](https://www.figma.com/proto/jj9z9wdAuvcuXABN5Z7Nt2/Unimarc?node-id=187%3A1904&scaling=min-zoom)
+[Versión **mobile**](https://www.figma.com/proto/jj9z9wdAuvcuXABN5Z7Nt2/Unimarc?node-id=187%3A1904&scaling=min-zoom)
 
-[Te invitamos a ver nuestro prototipo de alta fidelidad versión **escritorio**: ](https://www.figma.com/proto/jj9z9wdAuvcuXABN5Z7Nt2/Unimarc?node-id=48%3A873&scaling=min-zoom) 
+[Versión **escritorio**](https://www.figma.com/proto/jj9z9wdAuvcuXABN5Z7Nt2/Unimarc?node-id=48%3A873&scaling=min-zoom) 
 
-[Te invitamos a ver nuestra versión web **escritorio** :] (https://unimarc-recetas-souplovers.web.app)
+Te invitamos a ver nuestra versión web
+
+[**escritorio**](https://unimarc-recetas-souplovers.web.app)
 
 ## 3. Definición de Usuario:
 
-Usuarios dentro de 20 a 60 años que desean hacer sus compras del supermercado de una manera rápida.
-Usuarios con acceso a internet
-Usuarios que busquen ideas para sus comidas
-Usuarios que busquen recetas con ingredientes económicos.
-Usuarios que quieren comprar online con opción de despacho a domicilio o retiro en supermercado.
+Usuarios dentro de 20 a 60 años que desean hacer sus compras del supermercado de una manera **rápida**.
+Usuarios con acceso a **internet**.
+Usuarios que busquen **ideas** para sus comidas.
+Usuarios que busquen recetas con ingredientes **económicos**.
+Usuarios que quieren comprar online con opción de despacho a **domicilio o retiro** en supermercado.
 
 
 
@@ -68,5 +72,13 @@ Si tengo ya 1 de los ingredientes desagregar antes de darle al botón de incluir
 - Momento de día 
 - Tipo de plato
 
+
+## 7. ¿Quiénes somos?
+
+Somos el squad **2**
+
+Las **SoupLovers** de la hackathon...
+
+<img src="https://github.com/LiRizo/souplovers-h-scl013/blob/master/src/assets/img/nacho.png?raw=true">
 
 
