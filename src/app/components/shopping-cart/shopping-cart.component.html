@@ -1,0 +1,40 @@
+<div class="shopping-cart-banner">
+    <h1>CARRO DE COMPRAS</h1>
+    <img src="../../../assets/img/shoppingCart/Tarjeta Unimarc.png"
+        alt="tarjeta unimarc">
+    <img src="../../../assets/img/shoppingCart/Pancho Saavera Banner.png" 
+        alt="pancho saavedra">
+</div>
+
+<div class="table-responsive">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Producto</th>
+          <th scope="col">Precio</th>
+          <th scope="col">Cantidad</th>
+          <th scope="col">Sub-Total</th>
+        </tr>
+      </thead>
+      <tbody *ngFor="let item of lineItems; index as i">
+        <tr>
+          <td><img class="cartIcon" src="{{item.image}}" alt="{{item.name}}">
+                {{item.name}}
+                <label>Eliminar</label>
+            </td>
+          <td>$ {{item.price}}</td>
+          <td><span>{{item.quantity}}
+              <button class="btn" (click)="increase(item)">
+                <img class="cartIcon" src="../../../assets/img/shoppingCart/Sumar.png" alt="sumar">
+              </button>
+              <button class="btn" (click)="decrease(item)">
+                <img class="cartIcon" src="../../../assets/img/shoppingCart/Restar.png" alt="restar">
+              </button>
+          </span></td>
+          <td><span>{{item.total}}</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+<app-purchase [cart]="cart"></app-purchase>
