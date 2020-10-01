@@ -1,0 +1,61 @@
+.container-tips {
+  margin: 0 50px;
+}
+
+.tips-img {
+  width: 25rem;
+  height: 10rem;
+}
+
+.card-tips {
+  width: 37.4375rem;
+  border: 1px solid #EAEAEA;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  margin: 0 12px 76px 0;
+}
+
+.video-frame {
+  width: 16.875rem;
+  border-radius: 7px;
+}
+
+.white-right {
+  width: 20.625rem;
+  background-color: #FFFFFF;
+ }
+
+ .text-card {
+   margin: 25px 20px 25px 32px;
+ }
+
+ .point-slide {
+   display: flex;
+   justify-content: center;
+ }
+
+ .point {
+   margin-left: 9px;
+   margin-bottom: 75px;
+ }
+
+ .category {
+  font-family: "apex-sans-book-regular";
+  font-weight: 500;
+  font-size: 18px;
+  color: #DA291C;
+ }
+
+ .title-tips {
+  font-family: "Clarendon-Regular";
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #2F2C2C;
+ }
+
+ .description-tips {
+  font-family: "apex-sans-book-regular";
+  font-size: 1rem;
+  font-weight: 500;
+  color: #2F2C2C;
+ }
