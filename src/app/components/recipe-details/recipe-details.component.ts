@@ -10,11 +10,12 @@ export class RecipeDetailsComponent implements OnInit {
 
   recipesDetails: any[] = [];
 
+
   constructor(private recipeDetailService: RecipeDetailService) { }
 
   ngOnInit(): void {
-    this.recipeDetailService.getRecipesDetails().subscribe( 
-      (data) => {                              
+    this.recipeDetailService.getRecipesDetails().subscribe(
+      (data) => {
         this.recipesDetails = data['recipes-details'];
       },
       (err) => {

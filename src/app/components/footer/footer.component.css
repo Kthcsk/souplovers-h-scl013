@@ -1,0 +1,83 @@
+.warning-stamps {
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+
+.logo-gob {
+  Width: 97px;
+  Height: 97px;
+  margin-right: 20px;
+}
+
+.varta {
+  font-family: 'Varta', sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.dark-color {
+  background-color: #2F2C2C;
+}
+
+.clear-text {
+  color: white;
+}
+
+.icon-footer {
+  width: 40px;
+}
+/* Fonts */
+
+.apex-regular {
+  font-family: "apex-sans-book-regular";
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.clarendon-bold-max {
+  font-family: "Clarendon-Regular";
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.clarendon-bold-min {
+  font-family: "Clarendon-Regular";
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.clarendon-regular {
+  font-family: "Clarendon-Regular";
+  font-weight: 700;
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: "Clarendon-Regular";
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.col-width-one {
+  width: 294px;
+  margin: 0;
+}
+
+.col-width-two {
+  width: 294px;
+  margin: 0;
+}
+
+.col-width-three {
+  width: 323px;
+  margin: 0;
+}
+
+.col-width-four {
+  width: 341px;
+  margin: 0;
+}
+
