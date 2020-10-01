@@ -13,6 +13,11 @@
             "difficulty": "Dificultad Baja",
             "img_difficulty": "../../../assets/img/icons/Dificultad Baja.svg",
             "star":"../../../assets/img/icons/Estrella Color.svg",
+            "favorite":"../../../assets/img/icons/Favorito.svg",
+            "calendar":"../../../assets/img/icons/Calendario.svg",
+            "list":"../../../assets/img/icons/list.svg",
+            "print":"../../../assets/img/icons/Imprimir.svg",
+            "download":"../../../assets/img/icons/Descargar.svg",
             "ingredients": [
                 {
                     "quantity":"2 un.",
