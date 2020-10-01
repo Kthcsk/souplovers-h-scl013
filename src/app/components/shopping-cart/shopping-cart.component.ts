@@ -35,11 +35,23 @@ class LineItem {
   }
 }
 
-class Cart {
+export class Cart {
   constructor(private items: LineItem[]) { }
 
   get total(): number {
-    return this.items.reduce((accumulator, currentValue) => accumulator + currentValue.price, 0);
+    return this.items.reduce((accumulator, currentValue) => accumulator + currentValue.total, 0);
+  }
+
+  get discount(): number {
+    return this.total * 0.1;
+  }
+
+  get discountOthers(): number {
+    return 0;
+  }
+
+  get appliedDiscounts(): number {
+    return this.total - this.discount;
   }
 }
 
@@ -51,15 +63,16 @@ class Cart {
 export class ShoppingCartComponent implements OnInit {
 
   lineItems: LineItem[];
+  cart: Cart;
 
   constructor(private shoppingCartService: ShoppingCartService) { }
 
   increase(lineItem: LineItem){
-    lineItem.increase()
+    lineItem.increase();
   }
 
   decrease(lineItem: LineItem){
-    lineItem.decrease()
+    lineItem.decrease();
 
     if (lineItem.quantity <= 0) {
       const index = this.lineItems.indexOf(lineItem, 0);
@@ -73,6 +86,7 @@ export class ShoppingCartComponent implements OnInit {
     this.shoppingCartService.getShoppingCartDetails().subscribe(
       (data) => {
         this.lineItems = data['shopping_cart'].map(product => new LineItem(product));
+        this.cart = new Cart(this.lineItems);
       },
       (err) => {
         console.log(err);
