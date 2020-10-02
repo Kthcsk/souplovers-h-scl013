@@ -32,6 +32,7 @@
 .editbtn-s{
     border-radius: 8px;
     height: 4.75rem;
+    margin-right: 3rem;
 }
 
 .editbtn-s:focus{

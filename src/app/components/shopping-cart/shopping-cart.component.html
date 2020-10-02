@@ -1,19 +1,24 @@
 <div class="shopping-cart-banner">
-    <h1>CARRO DE COMPRAS</h1>
-    <img src="../../../assets/img/shoppingCart/Tarjeta Unimarc.png"
-        alt="tarjeta unimarc">
-    <img src="../../../assets/img/shoppingCart/Pancho Saavera Banner.png" 
-        alt="pancho saavedra">
+    <div class="d-flex flex-row align-items-center">
+      <h2>CARRO DE COMPRAS</h2>
+      <div class="d-flex justify-content-end flex-fill">
+        <img src="../../../assets/img/shoppingCart/Tarjeta Unimarc.png"
+            alt="tarjeta unimarc">
+        <img src="../../../assets/img/shoppingCart/Pancho Saavera Banner.png" 
+            alt="pancho saavedra">
+        </div>
+    </div>
 </div>
 
-<div class="table-responsive">
+<div class="d-flex flex-row">
+  <div class="container table-responsive">
     <table class="table">
       <thead>
         <tr>
-          <th scope="col">Producto</th>
-          <th scope="col">Precio</th>
-          <th scope="col">Cantidad</th>
-          <th scope="col">Sub-Total</th>
+          <th scope="col"><h3>Producto</h3></th>
+          <th scope="col"><h3>Precio</h3></th>
+          <th scope="col"><h3>Cantidad</h3></th>
+          <th scope="col"><h3>Sub-Total</h3></th>
         </tr>
       </thead>
       <tbody *ngFor="let item of lineItems; index as i">
@@ -37,4 +42,5 @@
     </table>
   </div>
 
-<app-purchase [cart]="cart"></app-purchase>
+  <app-purchase [cart]="cart"></app-purchase>
+</div>
