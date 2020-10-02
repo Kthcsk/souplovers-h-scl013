@@ -2,10 +2,13 @@
   <div class="dire-cs">
     <div class="col">
       <div class="row">
-        <h1 class="edit-h1-s">Las mejores recetas</h1>
-        <div class="d-flex justify-content-end">
-        <p class="textcard-s">Ver todas</p>
-      </div>
+        <h1 class="edit-h1-s ml-4">Las mejores recetas</h1>
+        <div class="" style="width: 32rem;">  </div>
+        <p class="textcard-s my-3">Ver todas</p>
+        <img class="ml-3" style="width: 2rem;" src="/assets/img/icons/arrowR.svg" alt="">
+        <img class="ml-3" style="width: 2rem;" src="/assets/img/icons/arrowl.svg" alt="">
+
+
       </div>
       <div class="row my-flex-card">
 
@@ -34,8 +37,7 @@
               <p class="card-text textcard-s">{{item.description}}</p>
               <hr>
               <div class="row">
-                <img src="{{item.icon}}" class="ml-3" style="width: 3rem;" alt="">
-                <!--Duda con el alt-->
+                <img src="{{item.icon}}" class="ml-3" style="width: 3rem;" alt="{{item.icon}}">
                 <p class="card-text ml-3 textcard-s"><small class="text-muted text-right">{{item.time}} </small></p>
                 <p class="card-text ml-3 textcard-s"><small class="text-muted text-right"> {{item.portions}}</small></p>
               </div>

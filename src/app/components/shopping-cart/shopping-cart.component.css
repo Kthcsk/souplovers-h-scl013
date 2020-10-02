@@ -1,3 +1,22 @@
 .cartIcon{
-    width: 3rem;
+    width: 2rem;
+}
+
+h2, th{
+    font-family: "Clarendon-Regular", serif;
+    color: #2F2C2C;
+}
+
+td, label{
+    font-family: "apex-sans-book-regular";
+}
+
+td{
+    color: #2F2C2C;
+    font-size: 1.5rem;
+}
+
+label{
+    color:#DA291C;
+    font-size: 1rem;
 }
