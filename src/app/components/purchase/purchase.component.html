@@ -1,18 +1,23 @@
-<div class="container d-flex flex-column">
-    <h3>Pedido</h3>
-   <div class="d-flex flex-row justify-content-between">
-        <p>Dcto. Tarjeta Unimarc</p>
-        <p>{{cart.appliedDiscounts}}</p>
+   <div>
+          <div class="container d-flex flex-column mr-3">
+               <h3>Pedido</h3>
+               <div class="d-flex flex-row justify-content-between">
+                    <p>Dcto. Tarjeta Unimarc</p>
+                    <p>{{cart.appliedDiscounts}}</p>
+               </div>
+               <hr>
+               <div class="d-flex flex-row justify-content-between">
+                    <p class="total">Total Tarjeta Unimarc</p>
+                    <p>{{cart.appliedDiscounts}}</p>
+               </div>
+               <div class="d-flex flex-row justify-content-between">
+                    <p class="total">Total Otro medio de pago</p>
+                    <p>{{cart.total}}</p>
+               </div>
+          </div>
+          <img class="mr-3" src="../../../assets/img/shoppingCart/Club Ahorro.png" alt="club ahorro">
    </div>
-    <hr>
-    <div class="d-flex flex-row justify-content-between">
-        <p>Total Tarjeta Unimarc</p>
-        <p>{{cart.appliedDiscounts}}</p>
-    </div>
-   <div class="d-flex flex-row justify-content-between">
-        <p>Total Otro medio de pago</p>
-        <p>{{cart.total}}</p>
-   </div>
-</div>
+
+
 
 
